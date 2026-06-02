@@ -2,22 +2,22 @@ import { BOOKING_URL } from "@/lib/constants";
 
 const steps = [
   {
-    number: "01",
+    number: "1",
     title: "Book Online",
     description: "Select your date, time, and package through our easy online booking.",
   },
   {
-    number: "02",
+    number: "2",
     title: "We Set Up (Or You Pick Up)",
     description: "For hosted events, our team arrives and sets up. For rentals, pick up the equipment or we&apos;ll drop it off.",
   },
   {
-    number: "03",
+    number: "3",
     title: "Play!",
     description: "You and your guests enjoy the action. For hosted events, we run the games for you.",
   },
   {
-    number: "04",
+    number: "4",
     title: "We Pack Up (Or You Return)",
     description: "For hosted events, we handle breakdown and cleanup. For rentals, return the equipment or we&apos;ll pick it up.",
   },
