@@ -1,3 +1,4 @@
+import { BOOKING_URL } from "@/lib/constants";
 ﻿import Link from "next/link";
 
 export const metadata = {
@@ -13,8 +14,6 @@ export const metadata = {
 };
 
 export default function CasaGrandePage() {
-  const bookingUrl =
-    "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
 
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
@@ -36,7 +35,7 @@ export default function CasaGrandePage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href={bookingUrl}
+              href={BOOKING_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-lg px-8 py-4"
@@ -217,7 +216,7 @@ export default function CasaGrandePage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href={bookingUrl}
+              href={BOOKING_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-lg px-8 py-4"

@@ -1,3 +1,4 @@
+import { BOOKING_URL } from "@/lib/constants";
 ﻿import Link from "next/link";
 
 export const metadata = {
@@ -7,7 +8,6 @@ export const metadata = {
 };
 
 export default function LitchfieldParkPage() {
-  const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
   
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
@@ -24,7 +24,7 @@ export default function LitchfieldParkPage() {
             Litchfield Park&apos;s tree-lined streets and beautiful parks deserve premium entertainment. We bring tactical laser tag, VR, Nerf wars, and water battles to your upscale event.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
               Book Your Litchfield Park Event
             </a>
             <a href="tel:623-476-4906" className="btn-secondary text-lg px-8 py-4">
@@ -94,7 +94,7 @@ export default function LitchfieldParkPage() {
           <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-6">READY TO PLAY IN LITCHFIELD PARK?</h2>
           <p className="text-xl text-gray-300 mb-8">Elevate your next event with games everyone will remember.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Now</a>
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Now</a>
             <Link href="/games" className="btn-secondary text-lg px-8 py-4">View Our Games</Link>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">

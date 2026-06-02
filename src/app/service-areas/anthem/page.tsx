@@ -1,3 +1,4 @@
+import { BOOKING_URL } from "@/lib/constants";
 ﻿import Link from "next/link";
 
 export const metadata = {
@@ -7,7 +8,6 @@ export const metadata = {
 };
 
 export default function AnthemPage() {
-  const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
 
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
@@ -23,7 +23,7 @@ export default function AnthemPage() {
             Anthem&apos;s wide-open parks and active community make it one of our favorite places to set up. We bring tactical laser tag, VR, Nerf wars, and water battles to your neighborhood — and we highly recommend Anthem Community Park as the perfect venue.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Your Anthem Event</a>
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Your Anthem Event</a>
             <a href="tel:623-476-4906" className="btn-secondary text-lg px-8 py-4">Call (623) 476-4906</a>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function AnthemPage() {
           <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-6">READY TO PLAY IN ANTHEM?</h2>
           <p className="text-xl text-gray-300 mb-8">We&apos;ll bring the action to your park, backyard, or venue — and we&apos;ll handle everything.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Now</a>
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Now</a>
             <Link href="/games" className="btn-secondary text-lg px-8 py-4">View Our Games</Link>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">

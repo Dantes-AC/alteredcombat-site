@@ -1,3 +1,4 @@
+import { BOOKING_URL } from "@/lib/constants";
 ﻿import Link from "next/link";
 
 export const metadata = {
@@ -7,7 +8,6 @@ export const metadata = {
 };
 
 export default function GoodyearPage() {
-  const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
   
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
@@ -24,7 +24,7 @@ export default function GoodyearPage() {
             Goodyear is booming — and so are the birthday parties. We bring tactical laser tag, VR, Nerf wars, and water wars right to your neighborhood. No driving across the valley required.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
               Book Your Goodyear Event
             </a>
             <a href="tel:623-476-4906" className="btn-secondary text-lg px-8 py-4">
@@ -130,7 +130,7 @@ export default function GoodyearPage() {
             Make your next birthday party, block party, or family gathering unforgettable. We handle everything.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
               Book Now
             </a>
             <Link href="/games" className="btn-secondary text-lg px-8 py-4">

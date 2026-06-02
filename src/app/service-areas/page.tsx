@@ -1,5 +1,6 @@
 ﻿import Link from "next/link";
 import type { Metadata } from "next";
+import { BOOKING_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Service Areas | Altered Combat - Mobile Laser Tag Across Arizona",
@@ -77,7 +78,6 @@ const colorClasses: Record<string, { bg: string; border: string; text: string; h
 };
 
 export default function ServiceAreasPage() {
-  const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
 
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
@@ -91,7 +91,7 @@ export default function ServiceAreasPage() {
             Based in Buckeye, serving all of Arizona and beyond. No matter where you are, we&apos;ll set up the battlefield at your location.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Your Event</a>
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Your Event</a>
             <a href="tel:623-476-4906" className="btn-secondary text-lg px-8 py-4">Call (623) 476-4906</a>
           </div>
         </div>
@@ -146,7 +146,7 @@ export default function ServiceAreasPage() {
           <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-6">READY TO PLAY?</h2>
           <p className="text-xl text-gray-300 mb-8">Book online or give us a call. We&apos;ll handle the rest.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Now</a>
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Now</a>
             <Link href="/games" className="btn-secondary text-lg px-8 py-4">View Our Games</Link>
           </div>
         </div>

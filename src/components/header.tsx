@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { BOOKING_URL } from "@/lib/constants";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,7 +46,7 @@ export default function Header() {
               (623) 476-4906
             </a>
             <a
-              href='https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749'
+              href={BOOKING_URL}
               target='_blank'
               rel='noopener noreferrer'
               className='btn-primary'
@@ -88,7 +89,7 @@ export default function Header() {
                 (623) 476-4906
               </a>
               <a
-                href='https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749'
+                href={BOOKING_URL}
                 target='_blank'
                 rel='noopener noreferrer'
                 className='btn-primary text-center'

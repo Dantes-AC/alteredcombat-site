@@ -1,3 +1,4 @@
+import { BOOKING_URL } from "@/lib/constants";
 ﻿import Link from "next/link";
 
 export const metadata = {
@@ -7,7 +8,6 @@ export const metadata = {
 };
 
 export default function GilbertPage() {
-  const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
   
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
@@ -24,7 +24,7 @@ export default function GilbertPage() {
             Gilbert knows how to throw a party. We bring tactical laser tag, VR adventures, Nerf wars, and water battles right to your backyard, park, or school. The kids will talk about it for years.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
               Book Your Gilbert Event
             </a>
             <a href="tel:623-476-4906" className="btn-secondary text-lg px-8 py-4">
@@ -130,7 +130,7 @@ export default function GilbertPage() {
             Give your kids the best birthday party ever — or treat the whole family to an epic game day. We bring everything.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
               Book Now
             </a>
             <Link href="/games" className="btn-secondary text-lg px-8 py-4">

@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import InsuranceSection from "@/components/insurance-section";
 import EventTypesGrid from "@/components/event-types-grid";
+import { BOOKING_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Parties & Events | Altered Combat - Birthday Parties, Corporate Events",
@@ -102,7 +103,7 @@ export default function PartiesEventsPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749"
+              href={BOOKING_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-lg px-10 py-4"

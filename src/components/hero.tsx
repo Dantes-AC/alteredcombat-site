@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { BOOKING_URL } from "@/lib/constants";
 
 const USFlagIcon = () => (
   <svg className="w-5 h-5" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +64,6 @@ const USFlagIcon = () => (
 );
 
 export default function Hero() {
-  const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
 
   const services = [
     "Tactical laser tag",
@@ -156,7 +156,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 md:mb-20">
             <a
-              href={bookingUrl}
+              href={BOOKING_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-lg px-10 py-4"

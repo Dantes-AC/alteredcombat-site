@@ -1,3 +1,4 @@
+import { BOOKING_URL } from "@/lib/constants";
 ﻿import Link from "next/link";
 
 export const metadata = {
@@ -7,7 +8,6 @@ export const metadata = {
 };
 
 export default function MesaPage() {
-  const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
       <section className="relative py-32 pt-40">
@@ -17,7 +17,7 @@ export default function MesaPage() {
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-6">MOBILE LASER TAG & PARTY GAMES IN <span className="text-red-400">MESA</span></h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">Big city, big events. From East Mesa to Downtown, we bring tactical laser tag, VR, Nerf wars, and water battles to Mesa&apos;s diverse neighborhoods, schools, and community centers.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Your Mesa Event</a>
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Your Mesa Event</a>
             <a href="tel:623-476-4906" className="btn-secondary text-lg px-8 py-4">Call (623) 476-4906</a>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function MesaPage() {
           <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-6">READY TO PLAY IN MESA?</h2>
           <p className="text-xl text-gray-300 mb-8">Whether it&apos;s a backyard birthday, a school field day, or a church youth event — we&apos;ve got you covered.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Now</a>
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Now</a>
             <Link href="/games" className="btn-secondary text-lg px-8 py-4">View Our Games</Link>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">

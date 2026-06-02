@@ -1,4 +1,4 @@
-﻿const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
+import { BOOKING_URL } from "@/lib/constants";
 
 const steps = [
   {
@@ -61,7 +61,7 @@ export default function HowItWorksPreview() {
 
         <div className="text-center mt-12">
           <a
-            href={bookingUrl}
+            href={BOOKING_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

@@ -1,3 +1,4 @@
+import { BOOKING_URL } from "@/lib/constants";
 ﻿import Link from "next/link";
 
 export const metadata = {
@@ -7,7 +8,6 @@ export const metadata = {
 };
 
 export default function SurprisePage() {
-  const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
 
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
@@ -25,7 +25,7 @@ export default function SurprisePage() {
             Surprise is known for spring training and family fun — and we&apos;re here to add to it. We bring tactical laser tag, VR, Nerf wars, and water battles right to your backyard, park, or community center.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
               Book Your Surprise Event
             </a>
             <a href="tel:623-476-4906" className="btn-secondary text-lg px-8 py-4">
@@ -136,7 +136,7 @@ export default function SurprisePage() {
             From birthday parties to community events, we bring the action to you. Book online or give us a call.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-            <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
+            <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
               Book Now
             </a>
             <Link href="/games" className="btn-secondary text-lg px-8 py-4">
