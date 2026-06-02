@@ -1,6 +1,5 @@
 ﻿import type { Metadata } from "next";
 import { Inter, Teko } from "next/font/google";
-// @ts-expect-error: missing type declarations for side-effect import of CSS
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
