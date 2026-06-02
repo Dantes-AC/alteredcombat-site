@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import PrivacyContent from "@/components/privacy-content-1";
-import PrivacyContent2 from "@/components/privacy-content-2";
+import PrivacyContent from "../../components/privacy-content-1";
+import PrivacyContent2 from "../../components/privacy-content-2";
 
 export default function PrivacyPolicyPage() {
   return (
