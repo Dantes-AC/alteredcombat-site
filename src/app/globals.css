@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@reference "tailwindcss";
+
+:root {
+  --cyan-glow: #00d4ff;
+  --dark-bg: #0a0a0f;
+  --dark-card: #12121a;
+  --gray-text: #a0a0a0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: white;
+}
+
+.glow-text {
+  text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+}
+
+.btn-primary {
+  @apply bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-3 px-8 rounded-lg transition-all duration-300;
+}
+.glow-border {
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+}
+
+.btn-secondary {
+  @apply border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-black font-bold py-3 px-8 rounded-lg transition-all duration-300;
+}
