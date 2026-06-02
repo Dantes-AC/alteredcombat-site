@@ -84,7 +84,7 @@ export default function StructuredData() {
       "url": "https://www.alteredcombat.com",
       "description": "Veteran-owned mobile tactical laser tag and party game rental company serving Arizona.",
       "telephone": "+1-623-476-4906",
-      "foundingDate": "2021"
+      "foundingDate": "2020"
     }
   ];
 
