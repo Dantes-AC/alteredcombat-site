@@ -17,15 +17,17 @@ export default function Header() {
   return (
     <header className='fixed top-0 left-0 right-0 z-50 bg-[#0a0a0f]/95 backdrop-blur-sm border-b border-gray-800'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='flex items-center justify-between h-20'>
+        <div className='flex items-center h-20'>
           {/* Logo */}
-          <Link href='/' className='flex-shrink-0'>
-            <img
-              src='https://us.chat-img.sintra.ai/97d167d5-7687-49d0-a6c6-ccc61b7563ca/adcd015e-8263-4eb3-8503-91ab3b64ba31/Altered_Combat_-_Original.png'
-              alt='Altered Combat logo - mobile gaming and party rental company'
-              className='h-16 w-auto'
-            />
-          </Link>
+          <div className='flex-1'>
+            <Link href='/' className='flex-shrink-0'>
+              <img
+                src='https://us.chat-img.sintra.ai/97d167d5-7687-49d0-a6c6-ccc61b7563ca/adcd015e-8263-4eb3-8503-91ab3b64ba31/Altered_Combat_-_Original.png'
+                alt='Altered Combat logo - mobile gaming and party rental company'
+                className='h-16 w-auto'
+              />
+            </Link>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className='hidden md:flex items-center space-x-8'>
@@ -41,7 +43,7 @@ export default function Header() {
           </nav>
 
           {/* CTA Button */}
-          <div className='hidden md:flex items-center'>
+          <div className='flex-1 hidden md:flex items-center justify-end'>
             <a
               href={BOOKING_URL}
               target='_blank'
