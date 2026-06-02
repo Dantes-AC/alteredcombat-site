@@ -40,11 +40,8 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* CTA Button & Phone */}
-          <div className='hidden md:flex items-center space-x-6'>
-            <a href='tel:623-476-4906' className='text-cyan-400 font-semibold hover:text-cyan-300 transition-colors'>
-              (623) 476-4906
-            </a>
+          {/* CTA Button */}
+          <div className='hidden md:flex items-center'>
             <a
               href={BOOKING_URL}
               target='_blank'
@@ -85,9 +82,6 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
-              <a href='tel:623-476-4906' className='text-cyan-400 font-semibold py-2'>
-                (623) 476-4906
-              </a>
               <a
                 href={BOOKING_URL}
                 target='_blank'
