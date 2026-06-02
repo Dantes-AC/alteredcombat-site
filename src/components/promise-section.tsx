@@ -77,7 +77,7 @@ export default function PromiseSection() {
 
         <div className="mt-12 text-center">
           <p className="text-gray-500 text-sm">
-            Proudly serving Arizona & beyond since 2021
+            Proudly serving Arizona & beyond since 2020
           </p>
         </div>
       </div>

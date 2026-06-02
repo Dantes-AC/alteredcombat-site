@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Teko } from "next/font/google";
+// @ts-ignore: missing type declarations for side-effect import of CSS
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Altered Combat | Mobile Tactical Laser Tag & Party Games",
-    description: "Arizona's mobile gaming experts. Tactical laser tag, Nerf Wars, Water Wars & VR delivered to you. Veteran-owned, serving Arizona & beyond.",
+    description: "Arizona's mobile gaming experts. Tactical laser tag, Nerf Wars, Water Wars & VR delivered to you. Veteran-owned since 2020, serving Arizona & beyond.",
     type: "website",
     locale: "en_US",
     siteName: "Altered Combat",
