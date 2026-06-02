@@ -11,6 +11,10 @@
   --gray-text: #a0a0a0;
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
