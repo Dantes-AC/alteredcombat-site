@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Buckeye, AZ | Altered Combat",
-  description: "Buckeye's premier mobile gaming. Tactical laser tag, VR, Nerf wars & water wars delivered to your backyard, park, or event. Veteran-owned, 5-star rated.",
+  description: "Buckeye&apos;s premier mobile gaming. Tactical laser tag, VR, Nerf wars & water wars delivered to your backyard, park, or event. Veteran-owned, 5-star rated.",
   keywords: ["laser tag Buckeye AZ", "mobile laser tag Buckeye", "birthday party Buckeye", "Nerf party Buckeye", "VR party Buckeye"],
 };
 
@@ -22,7 +22,7 @@ export default function BuckeyePage() {
             MOBILE LASER TAG & PARTY GAMES IN <span className="text-cyan-400">BUCKEYE</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            We're your neighbors. Altered Combat is proudly based right here in Buckeye — which means faster setup, no travel fees, and the best service in the West Valley.
+            We&apos;re your neighbors. Altered Combat is proudly based right here in Buckeye — which means faster setup, no travel fees, and the best service in the West Valley.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
@@ -50,7 +50,7 @@ export default function BuckeyePage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">Local & Reliable</h3>
-              <p className="text-gray-400">We're based in Buckeye. No long drives, no delays — just fast, dependable service from your neighbors.</p>
+              <p className="text-gray-400">We&apos;re based in Buckeye. No long drives, no delays — just fast, dependable service from your neighbors.</p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
               <div className="w-14 h-14 bg-cyan-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -68,7 +68,7 @@ export default function BuckeyePage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">Community First</h3>
-              <p className="text-gray-400">We're invested in Buckeye. When you book with us, you're supporting a local, veteran-owned business.</p>
+              <p className="text-gray-400">We&apos;re invested in Buckeye. When you book with us, you&apos;re supporting a local, veteran-owned business.</p>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function BuckeyePage() {
             POPULAR BUCKEYE EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            We've hosted events all over Buckeye. Here are some favorite locations.
+            We&apos;ve hosted events all over Buckeye. Here are some favorite locations.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[

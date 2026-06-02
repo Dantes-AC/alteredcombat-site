@@ -1,9 +1,9 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Paradise Valley, AZ | Altered Combat",
   description:
-    "Paradise Valley's premium mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for upscale birthday parties, estate events, and private gatherings. Veteran-owned.",
+    "Paradise Valley&apos;s premium mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for upscale birthday parties, estate events, and private gatherings. Veteran-owned.",
   keywords: [
     "laser tag Paradise Valley AZ",
     "mobile laser tag Paradise Valley",
@@ -24,14 +24,14 @@ export default function ParadiseValleyPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-violet-500/10 to-transparent"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-violet-500/10 border border-violet-500/30 rounded-full px-4 py-2 text-violet-400 text-sm font-medium mb-6">
-            Arizona's Most Exclusive Address
+            Arizona&apos;s Most Exclusive Address
           </span>
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-6">
             MOBILE LASER TAG & PARTY GAMES IN{" "}
             <span className="text-violet-400">PARADISE VALLEY</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Paradise Valley's stunning estates and mountain views deserve premium
+            Paradise Valley&apos;s stunning estates and mountain views deserve premium
             entertainment. We bring world-class tactical laser tag, VR, and party
             games to your private event.
           </p>
@@ -83,7 +83,7 @@ export default function ParadiseValleyPage() {
               </h3>
               <p className="text-gray-400">
                 Professional-grade equipment, impeccable setup, and attention to
-                detail that matches Paradise Valley's standards.
+                detail that matches Paradise Valley&apos;s standards.
               </p>
             </div>
 
@@ -108,7 +108,7 @@ export default function ParadiseValleyPage() {
                 Estate-Ready
               </h3>
               <p className="text-gray-400">
-                Paradise Valley's expansive properties are perfect for our games.
+                Paradise Valley&apos;s expansive properties are perfect for our games.
                 We create epic battlefields on your grounds.
               </p>
             </div>

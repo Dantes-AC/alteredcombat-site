@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Surprise, AZ | Altered Combat",
-  description: "Surprise's top mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, community events, and family fun. Veteran-owned, 5-star rated.",
+  description: "Surprise&apos;s top mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, community events, and family fun. Veteran-owned, 5-star rated.",
   keywords: ["laser tag Surprise AZ", "mobile laser tag Surprise", "birthday party Surprise", "Nerf party Surprise", "kids party Surprise"],
 };
 
@@ -16,13 +16,13 @@ export default function SurprisePage() {
         <div className="absolute inset-0 bg-gradient-to-b from-yellow-500/10 to-transparent"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-yellow-500/10 border border-yellow-500/30 rounded-full px-4 py-2 text-yellow-400 text-sm font-medium mb-6">
-            West Valley's Entertainment Destination
+            West Valley&apos;s Entertainment Destination
           </span>
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-6">
             MOBILE LASER TAG & PARTY GAMES IN <span className="text-yellow-400">SURPRISE</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Surprise is known for spring training and family fun — and we're here to add to it. We bring tactical laser tag, VR, Nerf wars, and water battles right to your backyard, park, or community center.
+            Surprise is known for spring training and family fun — and we&apos;re here to add to it. We bring tactical laser tag, VR, Nerf wars, and water battles right to your backyard, park, or community center.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
@@ -50,7 +50,7 @@ export default function SurprisePage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">West Valley Neighbors</h3>
-              <p className="text-gray-400">We're based nearby in Buckeye, so Surprise is right in our backyard. Quick response times and reliable service.</p>
+              <p className="text-gray-400">We&apos;re based nearby in Buckeye, so Surprise is right in our backyard. Quick response times and reliable service.</p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
               <div className="w-14 h-14 bg-yellow-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -59,7 +59,7 @@ export default function SurprisePage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">Family-Focused Fun</h3>
-              <p className="text-gray-400">Surprise is all about families, and so are we. Birthday parties, block parties, and backyard battles — we've got you covered.</p>
+              <p className="text-gray-400">Surprise is all about families, and so are we. Birthday parties, block parties, and backyard battles — we&apos;ve got you covered.</p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
               <div className="w-14 h-14 bg-yellow-500/10 rounded-full flex items-center justify-center mx-auto mb-4">

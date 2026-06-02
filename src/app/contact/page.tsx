@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Us | Altered Combat - Get in Touch",
@@ -98,7 +98,7 @@ export default function ContactPage() {
             CONTACT US
           </h1>
           <p className="text-xl text-gray-400">
-            Questions? Ready to book? We're here to help.
+            Questions? Ready to book? We&apos;re here to help.
           </p>
         </div>
       </section>
@@ -134,7 +134,7 @@ export default function ContactPage() {
                 (623) 476-4906
               </a>
               <p className="text-gray-400 mt-2 text-sm">
-                We'll get back to you ASAP
+                We&apos;ll get back to you ASAP
               </p>
             </div>
 
@@ -182,8 +182,8 @@ export default function ContactPage() {
             </h3>
             <p className="text-gray-400 mb-6 max-w-xl mx-auto">
               Planning a convention, multi-day activation, or something that
-              doesn't fit our standard packages? Schedule a free 30-minute
-              consultation and let's build your perfect event.
+              doesn&apos;t fit our standard packages? Schedule a free 30-minute
+              consultation and let&apos;s build your perfect event.
             </p>
             <a
               href="https://calendly.com/jerryac/event-experience-consultation-30-minutes"

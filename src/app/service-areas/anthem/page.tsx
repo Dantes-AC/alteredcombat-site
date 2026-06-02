@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Anthem, AZ | Altered Combat",
-  description: "Anthem's mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, community events, and family fun. We recommend Anthem Community Park. Veteran-owned.",
+  description: "Anthem&apos;s mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, community events, and family fun. We recommend Anthem Community Park. Veteran-owned.",
   keywords: ["laser tag Anthem AZ","mobile laser tag Anthem","birthday party Anthem","party games Anthem","Anthem Community Park laser tag","kids party Anthem AZ"],
 };
 

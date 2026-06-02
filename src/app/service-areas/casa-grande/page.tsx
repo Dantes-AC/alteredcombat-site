@@ -1,9 +1,9 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Casa Grande, AZ | Altered Combat",
   description:
-    "Casa Grande's mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, community events, and family fun. Veteran-owned.",
+    "Casa Grande&apos;s mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, community events, and family fun. Veteran-owned.",
   keywords: [
     "laser tag Casa Grande AZ",
     "mobile laser tag Casa Grande",
@@ -86,7 +86,7 @@ export default function CasaGrandePage() {
                 Central Location
               </h3>
               <p className="text-gray-400">
-                Casa Grande's central Arizona location makes it easy for us to
+                Casa Grande&apos;s central Arizona location makes it easy for us to
                 serve you. No extreme travel fees.
               </p>
             </div>
@@ -110,7 +110,7 @@ export default function CasaGrandePage() {
                 Growing Community
               </h3>
               <p className="text-gray-400">
-                Casa Grande's booming neighborhoods have the space and the
+                Casa Grande&apos;s booming neighborhoods have the space and the
                 families who want epic entertainment.
               </p>
             </div>
@@ -149,7 +149,7 @@ export default function CasaGrandePage() {
             POPULAR CASA GRANDE EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Casa Grande's parks and open spaces are perfect for our mobile
+            Casa Grande&apos;s parks and open spaces are perfect for our mobile
             games.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">

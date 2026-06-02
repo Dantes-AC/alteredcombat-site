@@ -1,4 +1,4 @@
-const eventTypes = [
+﻿const eventTypes = [
   {
     title: "Birthday Parties",
     description: "Epic celebrations for kids, teens, and adults. We bring the action to you.",
@@ -11,7 +11,7 @@ const eventTypes = [
   },
   {
     title: "Corporate Events",
-    description: "Team building that's actually fun. Get your crew out of the office and into battle.",
+    description: "Team building that&apos;s actually fun. Get your crew out of the office and into battle.",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
@@ -52,7 +52,7 @@ export default function EventTypes() {
             FUN FOR EVERY OCCASION
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            From backyard birthdays to large-scale events, we've got you covered.
+            From backyard birthdays to large-scale events, we&apos;ve got you covered.
           </p>
         </div>
 

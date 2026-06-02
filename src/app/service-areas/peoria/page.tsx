@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Peoria, AZ | Altered Combat",
-  description: "Peoria's premier mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, sports teams, and community events. Veteran-owned, 5-star rated.",
+  description: "Peoria&apos;s premier mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, sports teams, and community events. Veteran-owned, 5-star rated.",
   keywords: ["laser tag Peoria AZ", "mobile laser tag Peoria", "birthday party Peoria", "Nerf party Peoria", "kids party Peoria"],
 };
 
@@ -22,7 +22,7 @@ export default function PeoriaPage() {
             MOBILE LASER TAG & PARTY GAMES IN <span className="text-teal-400">PEORIA</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Peoria's got the sports spirit — and we've got the games to match. From Lake Pleasant to your backyard, we bring tactical laser tag, VR, Nerf wars, and water battles to your next event.
+            Peoria&apos;s got the sports spirit — and we&apos;ve got the games to match. From Lake Pleasant to your backyard, we bring tactical laser tag, VR, Nerf wars, and water battles to your next event.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
@@ -80,7 +80,7 @@ export default function PeoriaPage() {
             POPULAR PEORIA EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Peoria has incredible parks and outdoor spaces. Here's where we set up most often.
+            Peoria has incredible parks and outdoor spaces. Here&apos;s where we set up most often.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
@@ -132,7 +132,7 @@ export default function PeoriaPage() {
             READY TO PLAY IN PEORIA?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Whether it's a team celebration or a birthday party, we bring the games to you.
+            Whether it&apos;s a team celebration or a birthday party, we bring the games to you.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">

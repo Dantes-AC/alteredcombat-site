@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Gilbert, AZ | Altered Combat",
-  description: "Gilbert's favorite mobile party games. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, school events, and family fun. 5-star rated.",
+  description: "Gilbert&apos;s favorite mobile party games. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, school events, and family fun. 5-star rated.",
   keywords: ["laser tag Gilbert AZ", "birthday party Gilbert", "kids party Gilbert", "Nerf party Gilbert", "mobile games Gilbert"],
 };
 
@@ -15,7 +15,7 @@ export default function GilbertPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-green-500/10 to-transparent"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-green-500/10 border border-green-500/30 rounded-full px-4 py-2 text-green-400 text-sm font-medium mb-6">
-            Arizona's #1 Family-Friendly Town
+            Arizona&apos;s #1 Family-Friendly Town
           </span>
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-6">
             MOBILE LASER TAG & PARTY GAMES IN <span className="text-green-400">GILBERT</span>
@@ -47,7 +47,7 @@ export default function GilbertPage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">Birthday Party Experts</h3>
-              <p className="text-gray-400">We've done hundreds of birthday parties. We know what kids love, what parents appreciate, and how to make the day stress-free.</p>
+              <p className="text-gray-400">We&apos;ve done hundreds of birthday parties. We know what kids love, what parents appreciate, and how to make the day stress-free.</p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
               <div className="w-14 h-14 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -56,7 +56,7 @@ export default function GilbertPage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">All Ages Welcome</h3>
-              <p className="text-gray-400">From 8-year-old birthday parties to teen hangouts to parent-vs-kids showdowns — we've got games everyone can play together.</p>
+              <p className="text-gray-400">From 8-year-old birthday parties to teen hangouts to parent-vs-kids showdowns — we&apos;ve got games everyone can play together.</p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
               <div className="w-14 h-14 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -77,7 +77,7 @@ export default function GilbertPage() {
             POPULAR GILBERT EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Gilbert's parks and neighborhoods are perfect for our mobile games. Here's where we play most often.
+            Gilbert&apos;s parks and neighborhoods are perfect for our mobile games. Here&apos;s where we play most often.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[

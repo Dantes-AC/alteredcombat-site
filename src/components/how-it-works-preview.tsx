@@ -1,4 +1,4 @@
-const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
+﻿const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
 
 const steps = [
   {
@@ -9,7 +9,7 @@ const steps = [
   {
     number: "02",
     title: "We Set Up (Or You Pick Up)",
-    description: "For hosted events, our team arrives and sets up. For rentals, pick up the equipment or we'll drop it off.",
+    description: "For hosted events, our team arrives and sets up. For rentals, pick up the equipment or we&apos;ll drop it off.",
   },
   {
     number: "03",
@@ -19,7 +19,7 @@ const steps = [
   {
     number: "04",
     title: "We Pack Up (Or You Return)",
-    description: "For hosted events, we handle breakdown and cleanup. For rentals, return the equipment or we'll pick it up.",
+    description: "For hosted events, we handle breakdown and cleanup. For rentals, return the equipment or we&apos;ll pick it up.",
   },
 ];
 

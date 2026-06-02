@@ -1,10 +1,70 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useEffect } from "react";
+
+const USFlagIcon = () => (
+  <svg className="w-5 h-5" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    {/* Red and white stripes */}
+    <rect width="24" height="16" fill="#B22234"/>
+    <rect y="1.23" width="24" height="1.23" fill="white"/>
+    <rect y="3.69" width="24" height="1.23" fill="white"/>
+    <rect y="6.15" width="24" height="1.23" fill="white"/>
+    <rect y="8.62" width="24" height="1.23" fill="white"/>
+    <rect y="11.08" width="24" height="1.23" fill="white"/>
+    <rect y="13.54" width="24" height="1.23" fill="white"/>
+    {/* Blue canton */}
+    <rect width="9.6" height="8.62" fill="#3C3B6E"/>
+    {/* Stars (simplified) */}
+    <g fill="white">
+      <circle cx="1.2" cy="0.86" r="0.4"/>
+      <circle cx="2.8" cy="0.86" r="0.4"/>
+      <circle cx="4.4" cy="0.86" r="0.4"/>
+      <circle cx="6" cy="0.86" r="0.4"/>
+      <circle cx="7.6" cy="0.86" r="0.4"/>
+      <circle cx="2" cy="1.72" r="0.4"/>
+      <circle cx="3.6" cy="1.72" r="0.4"/>
+      <circle cx="5.2" cy="1.72" r="0.4"/>
+      <circle cx="6.8" cy="1.72" r="0.4"/>
+      <circle cx="1.2" cy="2.58" r="0.4"/>
+      <circle cx="2.8" cy="2.58" r="0.4"/>
+      <circle cx="4.4" cy="2.58" r="0.4"/>
+      <circle cx="6" cy="2.58" r="0.4"/>
+      <circle cx="7.6" cy="2.58" r="0.4"/>
+      <circle cx="2" cy="3.44" r="0.4"/>
+      <circle cx="3.6" cy="3.44" r="0.4"/>
+      <circle cx="5.2" cy="3.44" r="0.4"/>
+      <circle cx="6.8" cy="3.44" r="0.4"/>
+      <circle cx="1.2" cy="4.3" r="0.4"/>
+      <circle cx="2.8" cy="4.3" r="0.4"/>
+      <circle cx="4.4" cy="4.3" r="0.4"/>
+      <circle cx="6" cy="4.3" r="0.4"/>
+      <circle cx="7.6" cy="4.3" r="0.4"/>
+      <circle cx="2" cy="5.16" r="0.4"/>
+      <circle cx="3.6" cy="5.16" r="0.4"/>
+      <circle cx="5.2" cy="5.16" r="0.4"/>
+      <circle cx="6.8" cy="5.16" r="0.4"/>
+      <circle cx="1.2" cy="6.02" r="0.4"/>
+      <circle cx="2.8" cy="6.02" r="0.4"/>
+      <circle cx="4.4" cy="6.02" r="0.4"/>
+      <circle cx="6" cy="6.02" r="0.4"/>
+      <circle cx="7.6" cy="6.02" r="0.4"/>
+      <circle cx="2" cy="6.88" r="0.4"/>
+      <circle cx="3.6" cy="6.88" r="0.4"/>
+      <circle cx="5.2" cy="6.88" r="0.4"/>
+      <circle cx="6.8" cy="6.88" r="0.4"/>
+      <circle cx="1.2" cy="7.74" r="0.4"/>
+      <circle cx="2.8" cy="7.74" r="0.4"/>
+      <circle cx="4.4" cy="7.74" r="0.4"/>
+      <circle cx="6" cy="7.74" r="0.4"/>
+      <circle cx="7.6" cy="7.74" r="0.4"/>
+    </g>
+  </svg>
+);
 
 export default function Hero() {
   const bookingUrl = "https://fareharbor.com/embeds/book/alteredcombat/?full-items=yes&flow=1501749";
-  
+
   const services = [
     "Tactical laser tag",
     "Arena-scale VR",
@@ -26,66 +86,6 @@ export default function Hero() {
 
     return () => clearInterval(interval);
   }, [services.length]);
-
-  // US Flag SVG component
-  const USFlagIcon = () => (
-    <svg className="w-5 h-5" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-      {/* Red and white stripes */}
-      <rect width="24" height="16" fill="#B22234"/>
-      <rect y="1.23" width="24" height="1.23" fill="white"/>
-      <rect y="3.69" width="24" height="1.23" fill="white"/>
-      <rect y="6.15" width="24" height="1.23" fill="white"/>
-      <rect y="8.62" width="24" height="1.23" fill="white"/>
-      <rect y="11.08" width="24" height="1.23" fill="white"/>
-      <rect y="13.54" width="24" height="1.23" fill="white"/>
-      {/* Blue canton */}
-      <rect width="9.6" height="8.62" fill="#3C3B6E"/>
-      {/* Stars (simplified) */}
-      <g fill="white">
-        <circle cx="1.2" cy="0.86" r="0.4"/>
-        <circle cx="2.8" cy="0.86" r="0.4"/>
-        <circle cx="4.4" cy="0.86" r="0.4"/>
-        <circle cx="6" cy="0.86" r="0.4"/>
-        <circle cx="7.6" cy="0.86" r="0.4"/>
-        <circle cx="2" cy="1.72" r="0.4"/>
-        <circle cx="3.6" cy="1.72" r="0.4"/>
-        <circle cx="5.2" cy="1.72" r="0.4"/>
-        <circle cx="6.8" cy="1.72" r="0.4"/>
-        <circle cx="1.2" cy="2.58" r="0.4"/>
-        <circle cx="2.8" cy="2.58" r="0.4"/>
-        <circle cx="4.4" cy="2.58" r="0.4"/>
-        <circle cx="6" cy="2.58" r="0.4"/>
-        <circle cx="7.6" cy="2.58" r="0.4"/>
-        <circle cx="2" cy="3.44" r="0.4"/>
-        <circle cx="3.6" cy="3.44" r="0.4"/>
-        <circle cx="5.2" cy="3.44" r="0.4"/>
-        <circle cx="6.8" cy="3.44" r="0.4"/>
-        <circle cx="1.2" cy="4.3" r="0.4"/>
-        <circle cx="2.8" cy="4.3" r="0.4"/>
-        <circle cx="4.4" cy="4.3" r="0.4"/>
-        <circle cx="6" cy="4.3" r="0.4"/>
-        <circle cx="7.6" cy="4.3" r="0.4"/>
-        <circle cx="2" cy="5.16" r="0.4"/>
-        <circle cx="3.6" cy="5.16" r="0.4"/>
-        <circle cx="5.2" cy="5.16" r="0.4"/>
-        <circle cx="6.8" cy="5.16" r="0.4"/>
-        <circle cx="1.2" cy="6.02" r="0.4"/>
-        <circle cx="2.8" cy="6.02" r="0.4"/>
-        <circle cx="4.4" cy="6.02" r="0.4"/>
-        <circle cx="6" cy="6.02" r="0.4"/>
-        <circle cx="7.6" cy="6.02" r="0.4"/>
-        <circle cx="2" cy="6.88" r="0.4"/>
-        <circle cx="3.6" cy="6.88" r="0.4"/>
-        <circle cx="5.2" cy="6.88" r="0.4"/>
-        <circle cx="6.8" cy="6.88" r="0.4"/>
-        <circle cx="1.2" cy="7.74" r="0.4"/>
-        <circle cx="2.8" cy="7.74" r="0.4"/>
-        <circle cx="4.4" cy="7.74" r="0.4"/>
-        <circle cx="6" cy="7.74" r="0.4"/>
-        <circle cx="7.6" cy="7.74" r="0.4"/>
-      </g>
-    </svg>
-  );
 
   return (
     <section className="relative min-h-screen pt-24">
@@ -113,7 +113,7 @@ export default function Hero() {
             </div>
 
             {/* 5-Star Google Rating Badge - links to reviews section */}
-            <a 
+            <Link
               href="/#reviews"
               className="inline-flex items-center space-x-2 bg-yellow-500/10 border border-yellow-500/30 rounded-full px-4 py-2 hover:bg-yellow-500/20 transition-colors"
             >
@@ -125,7 +125,7 @@ export default function Hero() {
                 ))}
               </div>
               <span className="text-yellow-400 font-medium text-sm">5-Star Rated on Google</span>
-            </a>
+            </Link>
           </div>
 
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white tracking-tight mb-8 md:mb-16 glow-text">

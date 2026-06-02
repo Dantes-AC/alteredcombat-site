@@ -1,9 +1,9 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Tucson, AZ | Altered Combat",
   description:
-    "Tucson's mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, U of A events, and community gatherings. Veteran-owned.",
+    "Tucson&apos;s mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, U of A events, and community gatherings. Veteran-owned.",
   keywords: [
     "laser tag Tucson AZ",
     "mobile laser tag Tucson",
@@ -31,9 +31,9 @@ export default function TucsonPage() {
             <span className="text-red-500">TUCSON</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Tucson's desert landscape and vibrant community deserve epic
+            Tucson&apos;s desert landscape and vibrant community deserve epic
             entertainment. We make the trip south to bring tactical laser tag,
-            VR, Nerf wars, and water battles to Arizona's second-largest city.
+            VR, Nerf wars, and water battles to Arizona&apos;s second-largest city.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -111,7 +111,7 @@ export default function TucsonPage() {
                 Family Events
               </h3>
               <p className="text-gray-400">
-                Tucson's neighborhoods and parks are perfect for birthday
+                Tucson&apos;s neighborhoods and parks are perfect for birthday
                 parties, block parties, and family gatherings.
               </p>
             </div>
@@ -193,7 +193,7 @@ export default function TucsonPage() {
             POPULAR TUCSON EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Tucson's parks and outdoor spaces are perfect for our mobile games.
+            Tucson&apos;s parks and outdoor spaces are perfect for our mobile games.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
@@ -234,7 +234,7 @@ export default function TucsonPage() {
               SOUTHERN ARIZONA TRAVEL
             </h3>
             <p className="text-gray-300 mb-4">
-              We're based in Buckeye but regularly travel to Tucson for events.
+              We&apos;re based in Buckeye but regularly travel to Tucson for events.
               Travel fees may apply based on your event date and package.
             </p>
             <p className="text-gray-400 text-sm">

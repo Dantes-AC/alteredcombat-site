@@ -1,9 +1,9 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Flagstaff, AZ | Altered Combat",
   description:
-    "Flagstaff's mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for mountain town birthday parties, NAU events, and outdoor adventures. Veteran-owned.",
+    "Flagstaff&apos;s mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for mountain town birthday parties, NAU events, and outdoor adventures. Veteran-owned.",
   keywords: [
     "laser tag Flagstaff AZ",
     "mobile laser tag Flagstaff",
@@ -24,14 +24,14 @@ export default function FlagstaffPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-sky-500/10 to-transparent"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-sky-500/10 border border-sky-500/30 rounded-full px-4 py-2 text-sky-400 text-sm font-medium mb-6">
-            Arizona's Mountain Playground
+            Arizona&apos;s Mountain Playground
           </span>
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-6">
             MOBILE LASER TAG & PARTY GAMES IN{" "}
             <span className="text-sky-400">FLAGSTAFF</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Flagstaff's pine forests and mountain air make the perfect backdrop
+            Flagstaff&apos;s pine forests and mountain air make the perfect backdrop
             for outdoor battles. We make the drive up north to bring tactical
             laser tag, VR, Nerf wars, and water battles to your event.
           </p>
@@ -82,7 +82,7 @@ export default function FlagstaffPage() {
                 Mountain Adventure
               </h3>
               <p className="text-gray-400">
-                Flagstaff's outdoor culture meets tactical gaming. Battle it out
+                Flagstaff&apos;s outdoor culture meets tactical gaming. Battle it out
                 among the pines for an unforgettable experience.
               </p>
             </div>
@@ -155,7 +155,7 @@ export default function FlagstaffPage() {
             POPULAR FLAGSTAFF EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Flagstaff's parks and outdoor spaces are perfect for our games.
+            Flagstaff&apos;s parks and outdoor spaces are perfect for our games.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
@@ -196,7 +196,7 @@ export default function FlagstaffPage() {
               NORTHERN ARIZONA TRAVEL
             </h3>
             <p className="text-gray-300 mb-4">
-              We're based in Buckeye but regularly travel to Flagstaff for
+              We&apos;re based in Buckeye but regularly travel to Flagstaff for
               events. Travel fees may apply based on your event date and package.
             </p>
             <p className="text-gray-400 text-sm">

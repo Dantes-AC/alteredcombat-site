@@ -1,8 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Goodyear, AZ | Altered Combat",
-  description: "Goodyear's top-rated mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, schools, and events. 5-star rated, veteran-owned.",
+  description: "Goodyear&apos;s top-rated mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, schools, and events. 5-star rated, veteran-owned.",
   keywords: ["laser tag Goodyear AZ", "mobile laser tag Goodyear", "birthday party Goodyear", "Nerf party Goodyear", "kids party Goodyear"],
 };
 
@@ -15,7 +15,7 @@ export default function GoodyearPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-purple-500/10 to-transparent"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-purple-500/10 border border-purple-500/30 rounded-full px-4 py-2 text-purple-400 text-sm font-medium mb-6">
-            West Valley's Fastest Growing City
+            West Valley&apos;s Fastest Growing City
           </span>
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-6">
             MOBILE LASER TAG & PARTY GAMES IN <span className="text-purple-400">GOODYEAR</span>
@@ -56,7 +56,7 @@ export default function GoodyearPage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">Built for Groups</h3>
-              <p className="text-gray-400">Goodyear's growing communities have amazing parks — perfect for our games with up to 40 players.</p>
+              <p className="text-gray-400">Goodyear&apos;s growing communities have amazing parks — perfect for our games with up to 40 players.</p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
               <div className="w-14 h-14 bg-purple-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -77,7 +77,7 @@ export default function GoodyearPage() {
             POPULAR GOODYEAR EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            From Estrella to PebbleCreek, we've brought the action to neighborhoods across Goodyear.
+            From Estrella to PebbleCreek, we&apos;ve brought the action to neighborhoods across Goodyear.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[

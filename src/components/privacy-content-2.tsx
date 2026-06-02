@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 
 export default function PrivacyContent2() {
   return (
@@ -161,7 +161,7 @@ export default function PrivacyContent2() {
         </p>
       </div>
 
-      {/* 7. Children's Privacy */}
+      {/* 7. Children&apos;s Privacy */}
       <div className="space-y-4">
         <h2 className="font-teko text-3xl font-bold text-white">
           7. Children&apos;s Privacy

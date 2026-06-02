@@ -1,9 +1,9 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Queen Creek, AZ | Altered Combat",
   description:
-    "Queen Creek's favorite mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, farm events, and family celebrations. Veteran-owned.",
+    "Queen Creek&apos;s favorite mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, farm events, and family celebrations. Veteran-owned.",
   keywords: [
     "laser tag Queen Creek AZ",
     "mobile laser tag Queen Creek",
@@ -24,14 +24,14 @@ export default function QueenCreekPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-lime-500/10 to-transparent"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-lime-500/10 border border-lime-500/30 rounded-full px-4 py-2 text-lime-400 text-sm font-medium mb-6">
-            Arizona's Fastest Growing Town
+            Arizona&apos;s Fastest Growing Town
           </span>
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-6">
             MOBILE LASER TAG & PARTY GAMES IN{" "}
             <span className="text-lime-400">QUEEN CREEK</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Queen Creek's growing fast — and so are the birthday parties. From
+            Queen Creek&apos;s growing fast — and so are the birthday parties. From
             Schnepf Farms to your backyard, we bring tactical laser tag, VR, Nerf
             wars, and water battles to your event.
           </p>
@@ -82,7 +82,7 @@ export default function QueenCreekPage() {
                 Big Backyards
               </h3>
               <p className="text-gray-400">
-                Queen Creek's spacious properties are perfect for our games. We
+                Queen Creek&apos;s spacious properties are perfect for our games. We
                 set up an epic battlefield right at your home.
               </p>
             </div>
@@ -135,7 +135,7 @@ export default function QueenCreekPage() {
               </h3>
               <p className="text-gray-400">
                 HOA events, school functions, church gatherings — we bring the fun
-                to Queen Creek's growing community.
+                to Queen Creek&apos;s growing community.
               </p>
             </div>
           </div>
@@ -149,7 +149,7 @@ export default function QueenCreekPage() {
             POPULAR QUEEN CREEK EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Queen Creek's parks and open spaces are ideal for our mobile games.
+            Queen Creek&apos;s parks and open spaces are ideal for our mobile games.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[

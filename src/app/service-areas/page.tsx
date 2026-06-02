@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -24,7 +24,7 @@ const regions = [
   },
   {
     name: "East Valley",
-    description: "Gilbert, Chandler, Mesa & beyond. We've got the East covered.",
+    description: "Gilbert, Chandler, Mesa & beyond. We&apos;ve got the East covered.",
     color: "green",
     cities: [
       { name: "Gilbert", slug: "gilbert" },
@@ -48,7 +48,7 @@ const regions = [
   },
   {
     name: "Northern Arizona",
-    description: "Mountain towns & cooler temps. We'll make the drive.",
+    description: "Mountain towns & cooler temps. We&apos;ll make the drive.",
     color: "blue",
     cities: [
       { name: "Flagstaff", slug: "flagstaff" },
@@ -58,7 +58,7 @@ const regions = [
   },
   {
     name: "Southern Arizona",
-    description: "Tucson and beyond. Arizona's southern frontier.",
+    description: "Tucson and beyond. Arizona&apos;s southern frontier.",
     color: "red",
     cities: [
       { name: "Tucson", slug: "tucson" },
@@ -88,7 +88,7 @@ export default function ServiceAreasPage() {
             WE BRING THE <span className="text-cyan-400">ACTION</span> TO YOU
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Based in Buckeye, serving all of Arizona and beyond. No matter where you are, we'll set up the battlefield at your location.
+            Based in Buckeye, serving all of Arizona and beyond. No matter where you are, we&apos;ll set up the battlefield at your location.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Your Event</a>

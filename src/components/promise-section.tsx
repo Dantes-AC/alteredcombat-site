@@ -1,4 +1,4 @@
-const promises = [
+﻿const promises = [
   {
     title: "On-Time Setup",
     description: "We arrive early and have everything ready before your guests arrive.",
@@ -52,7 +52,7 @@ export default function PromiseSection() {
             THE ALTERED COMBAT PROMISE
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Book with confidence. We're committed to making your event unforgettable.
+            Book with confidence. We&apos;re committed to making your event unforgettable.
           </p>
         </div>
 

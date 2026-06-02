@@ -1,9 +1,9 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Tempe, AZ | Altered Combat",
   description:
-    "Tempe's top mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for ASU events, college parties, and birthday celebrations. Veteran-owned, 5-star rated.",
+    "Tempe&apos;s top mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for ASU events, college parties, and birthday celebrations. Veteran-owned, 5-star rated.",
   keywords: [
     "laser tag Tempe AZ",
     "mobile laser tag Tempe",
@@ -31,7 +31,7 @@ export default function TempePage() {
             <span className="text-yellow-500">TEMPE</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Tempe's got the energy — college town vibes, Mill Ave nightlife, and
+            Tempe&apos;s got the energy — college town vibes, Mill Ave nightlife, and
             Tempe Town Lake. We match that energy with tactical laser tag, VR,
             Nerf wars, and water battles for any event.
           </p>
@@ -150,7 +150,7 @@ export default function TempePage() {
             PERFECT FOR TEMPE EVENTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Whatever you're celebrating, we've got the games to make it
+            Whatever you&apos;re celebrating, we&apos;ve got the games to make it
             memorable.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
@@ -191,7 +191,7 @@ export default function TempePage() {
             POPULAR TEMPE EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Tempe's parks and open spaces are perfect for our mobile games.
+            Tempe&apos;s parks and open spaces are perfect for our mobile games.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
@@ -256,7 +256,7 @@ export default function TempePage() {
             READY TO PLAY IN TEMPE?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Fork 'em up! Book your event and let's make it legendary.
+            Fork &apos;em up! Book your event and let&apos;s make it legendary.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <a

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect } from "react";
 
@@ -27,7 +27,7 @@ export default function ReviewsSection() {
             WHAT OUR CUSTOMERS SAY
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Don't just take our word for it — hear from real customers.
+            Don&apos;t just take our word for it — hear from real customers.
           </p>
         </div>
 

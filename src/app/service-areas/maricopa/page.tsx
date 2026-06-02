@@ -1,9 +1,9 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Maricopa, AZ | Altered Combat",
   description:
-    "Maricopa's mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, HOA events, and family fun. Veteran-owned, 5-star rated.",
+    "Maricopa&apos;s mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, HOA events, and family fun. Veteran-owned, 5-star rated.",
   keywords: [
     "laser tag Maricopa AZ",
     "mobile laser tag Maricopa",
@@ -24,14 +24,14 @@ export default function MaricopaPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-indigo-500/10 to-transparent"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-indigo-500/10 border border-indigo-500/30 rounded-full px-4 py-2 text-indigo-400 text-sm font-medium mb-6">
-            Arizona's Newest City
+            Arizona&apos;s Newest City
           </span>
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-6">
             MOBILE LASER TAG & PARTY GAMES IN{" "}
             <span className="text-indigo-400">MARICOPA</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Maricopa's master-planned communities and young families are perfect
+            Maricopa&apos;s master-planned communities and young families are perfect
             for our games. We bring tactical laser tag, VR, Nerf wars, and water
             battles to your backyard, park, or HOA event.
           </p>
@@ -81,7 +81,7 @@ export default function MaricopaPage() {
                 Perfect Backyards
               </h3>
               <p className="text-gray-400">
-                Maricopa's newer homes have the spacious yards we love. Plenty of
+                Maricopa&apos;s newer homes have the spacious yards we love. Plenty of
                 room for epic laser tag battles.
               </p>
             </div>
@@ -105,7 +105,7 @@ export default function MaricopaPage() {
                 HOA Events
               </h3>
               <p className="text-gray-400">
-                Maricopa's active HOAs and community centers are perfect for our
+                Maricopa&apos;s active HOAs and community centers are perfect for our
                 games. We handle groups of all sizes.
               </p>
             </div>
@@ -129,8 +129,8 @@ export default function MaricopaPage() {
                 Young Families
               </h3>
               <p className="text-gray-400">
-                Maricopa's growing population of young families means lots of
-                birthday parties — and we're the entertainment they want.
+                Maricopa&apos;s growing population of young families means lots of
+                birthday parties — and we&apos;re the entertainment they want.
               </p>
             </div>
           </div>
@@ -144,7 +144,7 @@ export default function MaricopaPage() {
             POPULAR MARICOPA EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Maricopa's parks and community spaces are ideal for our mobile
+            Maricopa&apos;s parks and community spaces are ideal for our mobile
             games.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
