@@ -26,15 +26,17 @@ export default function InsuranceSection() {
         <div className="bg-[#12121a] border border-gray-800 rounded-2xl p-8 md:p-12">
 
           {/* Header */}
-          <div style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'16px', marginBottom:'8px'}}>
-            <Umbrella style={{width:'48px', height:'48px', color:'#22d3ee', flexShrink:0}} />
-            <h2 className="font-teko text-4xl font-bold text-white leading-none">
-              LICENSED & INSURED
-            </h2>
+          <div style={{marginBottom:'24px'}}>
+            <div style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'16px'}}>
+              <Umbrella style={{width:'48px', height:'48px', color:'#22d3ee', flexShrink:0}} />
+              <h2 style={{margin:0, fontFamily:'var(--font-teko)', fontSize:'2.25rem', fontWeight:'700', color:'white', lineHeight:1}}>
+                LICENSED & INSURED
+              </h2>
+            </div>
+            <p style={{margin:0, marginTop:'4px', marginLeft:'64px', color:'#9ca3af'}}>
+              Book with confidence. We carry comprehensive coverage for your protection.
+            </p>
           </div>
-          <p className="text-gray-400 mb-4" style={{marginLeft:'64px', marginTop:'-12px'}}>
-            Book with confidence. We carry comprehensive coverage for your protection.
-          </p>
 
           {/* Coverage Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -43,11 +45,11 @@ export default function InsuranceSection() {
                 key={item.title}
                 className="p-4 rounded-xl bg-[#0a0a0f]/50 border border-gray-800/50"
               >
-                <div style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'10px', marginBottom:'2px'}}>
+                <div style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'10px'}}>
                   <Check style={{width:'18px', height:'18px', color:'#22d3ee', flexShrink:0}} />
-                  <p className="text-white font-medium leading-none">{item.title}</p>
+                  <p style={{margin:0, color:'white', fontWeight:500, lineHeight:1}}>{item.title}</p>
                 </div>
-                <p className="text-gray-500 text-sm" style={{marginLeft:'28px', marginTop:'-2px'}}>{item.description}</p>
+                <p style={{margin:0, marginTop:'4px', marginLeft:'28px', color:'#6b7280', fontSize:'0.875rem'}}>{item.description}</p>
               </div>
             ))}
           </div>
