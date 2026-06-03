@@ -36,7 +36,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url('https://us.chat-img.sintra.ai/97d167d5-7687-49d0-a6c6-ccc61b7563ca/9b34d573-01ac-4da6-8ca2-9e946d6508c2/Hero_image_for_home_page.jpg')`,
+          backgroundImage: `url('/images/hero-bg.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
