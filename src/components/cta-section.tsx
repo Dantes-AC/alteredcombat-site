@@ -11,7 +11,7 @@ export default function CTASection() {
         </h2>
         <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
           Book your next birthday party, team event, or celebration today. 
-          We&apos;ll bring the action to you anywhere in Arizona and beyond.
+          We'll bring the action to you anywhere in Arizona and beyond.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">

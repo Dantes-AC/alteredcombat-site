@@ -4,7 +4,7 @@ import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Prescott, AZ | Altered Combat",
   description:
-    "Prescott&apos;s mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, community events, and outdoor fun. Veteran-owned.",
+    "Prescott's mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, community events, and outdoor fun. Veteran-owned.",
   keywords: [
     "laser tag Prescott AZ",
     "mobile laser tag Prescott",
@@ -23,15 +23,15 @@ export default function PrescottPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-stone-500/10 to-transparent"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-stone-500/10 border border-stone-500/30 rounded-full px-4 py-2 text-stone-400 text-sm font-medium mb-6">
-            Everybody&apos;s Hometown
+            Everybody's Hometown
           </span>
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-6">
             MOBILE LASER TAG & PARTY GAMES IN{" "}
             <span className="text-stone-400">PRESCOTT</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Prescott&apos;s historic charm and outdoor spirit make it perfect for our
-            games. We travel to Arizona&apos;s original capital to bring tactical
+            Prescott's historic charm and outdoor spirit make it perfect for our
+            games. We travel to Arizona's original capital to bring tactical
             laser tag, VR, Nerf wars, and water battles to your event.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -80,8 +80,8 @@ export default function PrescottPage() {
                 Historic Fun
               </h3>
               <p className="text-gray-400">
-                Prescott&apos;s Wild West heritage meets modern tactical gaming. A
-                unique experience in Arizona&apos;s original capital.
+                Prescott's Wild West heritage meets modern tactical gaming. A
+                unique experience in Arizona's original capital.
               </p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
@@ -104,7 +104,7 @@ export default function PrescottPage() {
                 Perfect Weather
               </h3>
               <p className="text-gray-400">
-                Prescott&apos;s mild climate means great outdoor gaming year-round. No
+                Prescott's mild climate means great outdoor gaming year-round. No
                 extreme heat, no snow delays.
               </p>
             </div>
@@ -129,7 +129,7 @@ export default function PrescottPage() {
               </h3>
               <p className="text-gray-400">
                 From Courthouse Square gatherings to backyard birthdays, we bring
-                the fun to Prescott&apos;s tight-knit community.
+                the fun to Prescott's tight-knit community.
               </p>
             </div>
           </div>
@@ -143,7 +143,7 @@ export default function PrescottPage() {
             POPULAR PRESCOTT EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Prescott&apos;s parks and open spaces are ideal for our mobile games.
+            Prescott's parks and open spaces are ideal for our mobile games.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
@@ -184,7 +184,7 @@ export default function PrescottPage() {
               NORTHERN ARIZONA TRAVEL
             </h3>
             <p className="text-gray-300 mb-4">
-              We&apos;re based in Buckeye but regularly travel to Prescott for events.
+              We're based in Buckeye but regularly travel to Prescott for events.
               Travel fees may apply based on your event date and package.
             </p>
             <p className="text-gray-400 text-sm">
@@ -222,7 +222,7 @@ export default function PrescottPage() {
             READY TO PLAY IN PRESCOTT?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Bring the action to Everybody&apos;s Hometown. Contact us to plan your
+            Bring the action to Everybody's Hometown. Contact us to plan your
             event.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

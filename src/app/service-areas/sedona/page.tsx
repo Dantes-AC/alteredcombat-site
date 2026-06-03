@@ -4,7 +4,7 @@ import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Sedona, AZ | Altered Combat",
   description:
-    "Sedona&apos;s mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for resort events, destination parties, and red rock adventures. Veteran-owned.",
+    "Sedona's mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for resort events, destination parties, and red rock adventures. Veteran-owned.",
   keywords: [
     "laser tag Sedona AZ",
     "mobile laser tag Sedona",
@@ -30,7 +30,7 @@ export default function SedonaPage() {
             <span className="text-rose-400">SEDONA</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Sedona&apos;s stunning red rocks and resort atmosphere create an
+            Sedona's stunning red rocks and resort atmosphere create an
             unforgettable backdrop for our games. We travel to bring tactical
             laser tag, VR, Nerf wars, and water battles to your destination
             event.
@@ -105,8 +105,8 @@ export default function SedonaPage() {
                 Resort-Ready
               </h3>
               <p className="text-gray-400">
-                We work with Sedona&apos;s resorts and venues to deliver seamless
-                entertainment that matches the location&apos;s quality.
+                We work with Sedona's resorts and venues to deliver seamless
+                entertainment that matches the location's quality.
               </p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
@@ -130,7 +130,7 @@ export default function SedonaPage() {
               </h3>
               <p className="text-gray-400">
                 Imagine tactical laser tag with Cathedral Rock in the background.
-                Sedona&apos;s scenery makes every event Instagram-worthy.
+                Sedona's scenery makes every event Instagram-worthy.
               </p>
             </div>
           </div>
@@ -144,7 +144,7 @@ export default function SedonaPage() {
             PERFECT FOR SEDONA EVENTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Sedona&apos;s unique setting makes every event special. We add the fun.
+            Sedona's unique setting makes every event special. We add the fun.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
@@ -185,7 +185,7 @@ export default function SedonaPage() {
               NORTHERN ARIZONA TRAVEL
             </h3>
             <p className="text-gray-300 mb-4">
-              We&apos;re based in Buckeye but love traveling to Sedona for events.
+              We're based in Buckeye but love traveling to Sedona for events.
               Travel fees may apply based on your event date and package.
             </p>
             <p className="text-gray-400 text-sm">

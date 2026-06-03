@@ -4,7 +4,7 @@ import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Scottsdale, AZ | Altered Combat",
   description:
-    "Scottsdale&apos;s premium mobile gaming. Tactical laser tag, arena-scale VR, Nerf wars & water wars for corporate events, upscale parties, and private gatherings.",
+    "Scottsdale's premium mobile gaming. Tactical laser tag, arena-scale VR, Nerf wars & water wars for corporate events, upscale parties, and private gatherings.",
   keywords: [
     "laser tag Scottsdale AZ",
     "corporate team building Scottsdale",
@@ -31,7 +31,7 @@ export default function ScottsdalePage() {
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
             From North Scottsdale estates to Old Town corporate events, we
-            deliver unforgettable games that match Scottsdale&apos;s standards.
+            deliver unforgettable games that match Scottsdale's standards.
             Professional-grade equipment, flawless execution.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -134,7 +134,7 @@ export default function ScottsdalePage() {
                 5-Star Service
               </h3>
               <p className="text-gray-400">
-                Perfect Google rating for a reason. We&apos;re punctual,
+                Perfect Google rating for a reason. We're punctual,
                 professional, and handle everything so you can focus on your
                 guests.
               </p>
@@ -150,7 +150,7 @@ export default function ScottsdalePage() {
             PERFECT FOR SCOTTSDALE EVENTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Whether it&apos;s a milestone birthday at a private estate or a company
+            Whether it's a milestone birthday at a private estate or a company
             retreat, we scale to fit.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">

@@ -195,7 +195,7 @@ export default function GamesPage() {
             NOT SURE WHICH TO CHOOSE?
           </h2>
           <p className='text-xl text-gray-400 mb-8'>
-            Call us and we&apos;ll help you pick the perfect game for your group.
+            Call us and we'll help you pick the perfect game for your group.
           </p>
           <div className='flex flex-col sm:flex-row items-center justify-center gap-4'>
             <a href={PHONE_HREF} className='btn-secondary text-lg px-10 py-4'>

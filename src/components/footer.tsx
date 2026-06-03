@@ -16,7 +16,7 @@ export default function Footer() {
               className='h-20 w-auto mb-4'
             />
             <p className='text-gray-400 max-w-md mb-4'>
-              Arizona&apos;s mobile gaming experts. We bring the battlefield to you.
+              Arizona's mobile gaming experts. We bring the battlefield to you.
             </p>
             <div className='flex items-center space-x-2 text-cyan-400'>
               <USFlagIcon />

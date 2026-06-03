@@ -4,7 +4,7 @@ import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Phoenix, AZ | Altered Combat",
   description:
-    "Phoenix&apos;s premier mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, corporate events, and community gatherings. Veteran-owned.",
+    "Phoenix's premier mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, corporate events, and community gatherings. Veteran-owned.",
   keywords: [
     "laser tag Phoenix AZ",
     "mobile laser tag Phoenix",
@@ -114,7 +114,7 @@ export default function PhoenixPage() {
               </h3>
               <p className="text-gray-400">
                 Downtown offices, tech campuses, company picnics — we bring team
-                building that&apos;s actually fun.
+                building that's actually fun.
               </p>
             </div>
 
@@ -154,7 +154,7 @@ export default function PhoenixPage() {
             SERVING ALL OF PHOENIX
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            No matter which part of Phoenix you&apos;re in, we&apos;ll bring the games to
+            No matter which part of Phoenix you're in, we'll bring the games to
             you.
           </p>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -264,7 +264,7 @@ export default function PhoenixPage() {
             READY TO PLAY IN PHOENIX?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            The Valley&apos;s biggest city deserves the best games. Let&apos;s make it
+            The Valley's biggest city deserves the best games. Let's make it
             happen.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

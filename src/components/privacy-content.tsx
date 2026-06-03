@@ -352,10 +352,10 @@ export default function PrivacyContent() {
         </p>
       </div>
 
-      {/* 7. Children&apos;s Privacy */}
+      {/* 7. Children's Privacy */}
       <div className="space-y-4">
         <h2 className="font-teko text-3xl font-bold text-white">
-          7. Children&apos;s Privacy
+          7. Children's Privacy
         </h2>
         <p className="text-gray-400">
           Our services are intended for families and children participating in

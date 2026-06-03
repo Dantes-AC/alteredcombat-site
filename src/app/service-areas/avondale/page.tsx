@@ -3,7 +3,7 @@ import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Avondale, AZ | Altered Combat",
-  description: "Avondale&apos;s favorite mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, racing events, and family fun. Veteran-owned, 5-star rated.",
+  description: "Avondale's favorite mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, racing events, and family fun. Veteran-owned, 5-star rated.",
   keywords: ["laser tag Avondale AZ", "mobile laser tag Avondale", "birthday party Avondale", "Nerf party Avondale", "kids party Avondale"],
 };
 
@@ -59,7 +59,7 @@ export default function AvondalePage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">West Valley Local</h3>
-              <p className="text-gray-400">Based in nearby Buckeye, we&apos;re your neighbors. Quick response times and no long travel delays.</p>
+              <p className="text-gray-400">Based in nearby Buckeye, we're your neighbors. Quick response times and no long travel delays.</p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
               <div className="w-14 h-14 bg-orange-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -68,7 +68,7 @@ export default function AvondalePage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">All Ages Welcome</h3>
-              <p className="text-gray-400">From kids&apos; birthday parties to adult competitions, we&apos;ve got games everyone can enjoy together.</p>
+              <p className="text-gray-400">From kids' birthday parties to adult competitions, we've got games everyone can enjoy together.</p>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function AvondalePage() {
             POPULAR AVONDALE EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Avondale&apos;s parks and neighborhoods are perfect for our mobile games.
+            Avondale's parks and neighborhoods are perfect for our mobile games.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[

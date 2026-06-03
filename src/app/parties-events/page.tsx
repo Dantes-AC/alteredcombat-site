@@ -58,8 +58,8 @@ export default function PartiesEventsPage() {
             </h2>
             <p className="text-gray-400 mb-6 max-w-xl mx-auto">
               Multi-day conventions, extended activations, or events that
-              don&apos;t fit our standard packages? Schedule a free 30-minute
-              consultation and let&apos;s build your perfect event.
+              don't fit our standard packages? Schedule a free 30-minute
+              consultation and let's build your perfect event.
             </p>
             <a
               href={CALENDLY_URL}

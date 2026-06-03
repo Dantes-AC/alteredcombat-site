@@ -44,7 +44,7 @@ export default function GamesPreview() {
             CHOOSE YOUR GAME
           </h2>
           <p className='text-xl text-gray-400 max-w-2xl mx-auto'>
-            Whether it&apos;s 10 kids or 1,000 adults, we bring the party to you.
+            Whether it's 10 kids or 1,000 adults, we bring the party to you.
           </p>
         </div>
 

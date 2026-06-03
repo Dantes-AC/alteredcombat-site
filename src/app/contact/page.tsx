@@ -19,7 +19,7 @@ export default function ContactPage() {
             CONTACT US
           </h1>
           <p className="text-xl text-gray-400">
-            Questions? Ready to book? We&apos;re here to help.
+            Questions? Ready to book? We're here to help.
           </p>
         </div>
       </section>
@@ -43,7 +43,7 @@ export default function ContactPage() {
                 {PHONE_NUMBER}
               </a>
               <p className="text-gray-400 mt-2 text-sm">
-                We&apos;ll get back to you ASAP
+                We'll get back to you ASAP
               </p>
             </div>
 
@@ -79,8 +79,8 @@ export default function ContactPage() {
             </h3>
             <p className="text-gray-400 mb-6 max-w-xl mx-auto">
               Planning a convention, multi-day activation, or something that
-              doesn&apos;t fit our standard packages? Schedule a free 30-minute
-              consultation and let&apos;s build your perfect event.
+              doesn't fit our standard packages? Schedule a free 30-minute
+              consultation and let's build your perfect event.
             </p>
             <a
               href={CALENDLY_URL}

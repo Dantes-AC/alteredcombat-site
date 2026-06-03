@@ -3,7 +3,7 @@ import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Glendale, AZ | Altered Combat",
-  description: "Glendale&apos;s top mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, tailgates, and events near State Farm Stadium. Veteran-owned.",
+  description: "Glendale's top mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, tailgates, and events near State Farm Stadium. Veteran-owned.",
   keywords: ["laser tag Glendale AZ", "mobile laser tag Glendale", "birthday party Glendale", "tailgate games Glendale", "party games Glendale"],
 };
 
@@ -16,7 +16,7 @@ export default function GlendalePage() {
         <div className="absolute inset-0 bg-gradient-to-b from-red-500/10 to-transparent"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block bg-red-500/10 border border-red-500/30 rounded-full px-4 py-2 text-red-400 text-sm font-medium mb-6">
-            Arizona&apos;s Sports & Entertainment Capital
+            Arizona's Sports & Entertainment Capital
           </span>
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-6">
             MOBILE LASER TAG & PARTY GAMES IN <span className="text-red-400">GLENDALE</span>
@@ -49,7 +49,7 @@ export default function GlendalePage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">Game Day Energy</h3>
-              <p className="text-gray-400">Tailgates, watch parties, pre-game events — we bring competitive fun that matches Glendale&apos;s sports culture.</p>
+              <p className="text-gray-400">Tailgates, watch parties, pre-game events — we bring competitive fun that matches Glendale's sports culture.</p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
               <div className="w-14 h-14 bg-red-500/10 rounded-full flex items-center justify-center mx-auto mb-4">

@@ -36,7 +36,7 @@ export default function PromiseSection() {
             THE ALTERED COMBAT PROMISE
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Book with confidence. We&apos;re committed to making your event unforgettable.
+            Book with confidence. We're committed to making your event unforgettable.
           </p>
         </div>
 

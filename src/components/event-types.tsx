@@ -97,7 +97,7 @@ export default function EventTypes({ variant = 'homepage' }: EventTypesProps) {
               FUN FOR EVERY OCCASION
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              From backyard birthdays to large-scale events, we&apos;ve got you covered.
+              From backyard birthdays to large-scale events, we've got you covered.
             </p>
           </div>
 

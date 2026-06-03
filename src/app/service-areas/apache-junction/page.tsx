@@ -4,7 +4,7 @@ import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Apache Junction, AZ | Altered Combat",
   description:
-    "Apache Junction&apos;s mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, outdoor events, and desert adventures. Veteran-owned.",
+    "Apache Junction's mobile gaming experts. Tactical laser tag, VR, Nerf wars & water wars for birthday parties, outdoor events, and desert adventures. Veteran-owned.",
   keywords: [
     "laser tag Apache Junction AZ",
     "mobile laser tag Apache Junction",
@@ -80,7 +80,7 @@ export default function ApacheJunctionPage() {
                 Desert Adventure
               </h3>
               <p className="text-gray-400">
-                AJ&apos;s rugged outdoor spirit matches our tactical games perfectly.
+                AJ's rugged outdoor spirit matches our tactical games perfectly.
                 Battle it out with the Superstitions in view.
               </p>
             </div>
@@ -106,7 +106,7 @@ export default function ApacheJunctionPage() {
                 Big Properties
               </h3>
               <p className="text-gray-400">
-                Apache Junction&apos;s spacious lots and rural properties give us room
+                Apache Junction's spacious lots and rural properties give us room
                 to create epic battlefields.
               </p>
             </div>
@@ -133,7 +133,7 @@ export default function ApacheJunctionPage() {
               </h3>
               <p className="text-gray-400">
                 From Lost Dutchman Days to backyard birthdays, we bring the fun
-                to AJ&apos;s tight-knit community.
+                to AJ's tight-knit community.
               </p>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function ApacheJunctionPage() {
             POPULAR AJ EVENT SPOTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Apache Junction&apos;s parks and open spaces are perfect for our games.
+            Apache Junction's parks and open spaces are perfect for our games.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[

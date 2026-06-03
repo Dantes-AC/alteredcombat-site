@@ -3,7 +3,7 @@ import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 
 export const metadata = {
   title: "Mobile Laser Tag & Party Games in Chandler, AZ | Altered Combat",
-  description: "Chandler&apos;s premier mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for corporate events, birthday parties, and gatherings. 5-star rated.",
+  description: "Chandler's premier mobile gaming. Tactical laser tag, VR, Nerf wars & water wars for corporate events, birthday parties, and gatherings. 5-star rated.",
   keywords: ["laser tag Chandler AZ", "corporate team building Chandler", "birthday party Chandler", "mobile games Chandler", "tech company events Chandler"],
 };
 
@@ -22,7 +22,7 @@ export default function ChandlerPage() {
             MOBILE LASER TAG & PARTY GAMES IN <span className="text-blue-400">CHANDLER</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Chandler&apos;s tech corridor knows innovation — and we deliver it. From Intel campus team builders to Ocotillo backyard birthdays, we bring cutting-edge games that match Chandler&apos;s forward-thinking vibe.
+            Chandler's tech corridor knows innovation — and we deliver it. From Intel campus team builders to Ocotillo backyard birthdays, we bring cutting-edge games that match Chandler's forward-thinking vibe.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
@@ -49,7 +49,7 @@ export default function ChandlerPage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">Tech-Forward Fun</h3>
-              <p className="text-gray-400">Arena-scale VR, professional laser tag systems, live scoring — our tech impresses even Chandler&apos;s most discerning engineers.</p>
+              <p className="text-gray-400">Arena-scale VR, professional laser tag systems, live scoring — our tech impresses even Chandler's most discerning engineers.</p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
               <div className="w-14 h-14 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -58,7 +58,7 @@ export default function ChandlerPage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">Corporate Events</h3>
-              <p className="text-gray-400">Team building that doesn&apos;t feel like team building. Get your department out of the conference room and into the action.</p>
+              <p className="text-gray-400">Team building that doesn't feel like team building. Get your department out of the conference room and into the action.</p>
             </div>
             <div className="bg-[#0a0a0f] border border-gray-800 rounded-xl p-6 text-center">
               <div className="w-14 h-14 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -67,7 +67,7 @@ export default function ChandlerPage() {
                 </svg>
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">Family-Friendly</h3>
-              <p className="text-gray-400">Chandler&apos;s master-planned communities have the perfect backyards for our games. We set up, you enjoy, we clean up.</p>
+              <p className="text-gray-400">Chandler's master-planned communities have the perfect backyards for our games. We set up, you enjoy, we clean up.</p>
             </div>
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function ChandlerPage() {
             PERFECT FOR CHANDLER EVENTS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            From Price Corridor office parks to Ocotillo neighborhoods, we&apos;ve got Chandler covered.
+            From Price Corridor office parks to Ocotillo neighborhoods, we've got Chandler covered.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
@@ -109,7 +109,7 @@ export default function ChandlerPage() {
             POPULAR CHANDLER LOCATIONS
           </h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Chandler&apos;s parks and neighborhoods are ideal for mobile gaming. Here&apos;s where we play.
+            Chandler's parks and neighborhoods are ideal for mobile gaming. Here's where we play.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
@@ -161,7 +161,7 @@ export default function ChandlerPage() {
             READY TO PLAY IN CHANDLER?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Whether it&apos;s a corporate team builder or your kid&apos;s birthday, we deliver unforgettable games.
+            Whether it's a corporate team builder or your kid's birthday, we deliver unforgettable games.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">
