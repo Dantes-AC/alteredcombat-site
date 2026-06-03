@@ -1,6 +1,6 @@
 ﻿import Link from 'next/link';
 import type { Metadata } from 'next';
-import { PHONE_NUMBER, PHONE_HREF } from '@/lib/constants';
+import { PHONE_NUMBER, PHONE_HREF, BOOKING_URL_LASER_TAG, BOOKING_URL_VR, BOOKING_URL_NERF, BOOKING_URL_WATER } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Our Games | Altered Combat - Laser Tag, Nerf Wars, VR & More',
@@ -17,7 +17,7 @@ const games = [
     ageRange: 'Ages 8+',
     duration: '2 hours minimum',
     serviceType: 'Fully hosted',
-    bookingUrl: 'https://fareharbor.com/embeds/book/alteredcombat/items/?flow=1502537&full-items=yes',
+    bookingUrl: BOOKING_URL_LASER_TAG,
     image: 'https://us.chat-img.sintra.ai/97d167d5-7687-49d0-a6c6-ccc61b7563ca/e5d6bea6-d7f5-44e0-a441-6e23c615caf5/Homepage_LT_Tile.jpg',
     alt: 'Group playing tactical laser tag outdoors with laser tag guns and bunkers',
     features: [
@@ -36,7 +36,7 @@ const games = [
     ageRange: 'Ages 12+',
     duration: '2 hours minimum',
     serviceType: 'Fully hosted',
-    bookingUrl: 'https://fareharbor.com/embeds/book/alteredcombat/items/?flow=1528879&full-items=yes',
+    bookingUrl: BOOKING_URL_VR,
     image: 'https://us.chat-img.sintra.ai/97d167d5-7687-49d0-a6c6-ccc61b7563ca/363efb95-1f66-449a-a96a-3b132f7d167d/Homepage_VR_Tile.jpg',
     alt: 'Players in arena-scale free-roam VR experience',
     features: [
@@ -55,7 +55,7 @@ const games = [
     ageRange: 'All ages',
     duration: '2 hours minimum',
     serviceType: 'Hosted or DIY',
-    bookingUrl: 'https://fareharbor.com/embeds/book/alteredcombat/items/?flow=1502538&full-items=yes',
+    bookingUrl: BOOKING_URL_NERF,
     image: 'https://us.chat-img.sintra.ai/97d167d5-7687-49d0-a6c6-ccc61b7563ca/48f7e9b4-c90c-4f4e-90fe-e36496d96e85/Homepage_Nerf_Tile_2.jpg',
     alt: 'Kids playing Nerf Wars with foam dart blasters',
     features: [
@@ -74,7 +74,7 @@ const games = [
     ageRange: 'All ages',
     duration: '2 hours minimum',
     serviceType: 'DIY',
-    bookingUrl: 'https://fareharbor.com/embeds/book/alteredcombat/items/?flow=1502539&full-items=yes',
+    bookingUrl: BOOKING_URL_WATER,
     image: 'https://us.chat-img.sintra.ai/97d167d5-7687-49d0-a6c6-ccc61b7563ca/9b8ed85f-5da6-4d28-9345-b7e0d2b2bded/Homepage_Water_Tile.jpg',
     alt: 'Group playing Water Wars with water blasters',
     features: [
