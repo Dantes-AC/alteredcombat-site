@@ -49,7 +49,7 @@ export default function InsuranceSection() {
                   <Check style={{width:'18px', height:'18px', color:'#22d3ee', flexShrink:0}} />
                   <p style={{margin:0, color:'white', fontWeight:500, lineHeight:1}}>{item.title}</p>
                 </div>
-                <p style={{margin:0, marginTop:'4px', marginLeft:'28px', color:'#6b7280', fontSize:'0.875rem'}}>{item.description}</p>
+                <p style={{margin:0, marginTop:'8px', marginLeft:'28px', color:'#6b7280', fontSize:'0.875rem'}}>{item.description}</p>
               </div>
             ))}
           </div>
