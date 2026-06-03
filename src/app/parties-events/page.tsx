@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { PencilRuler } from "lucide-react";
 import InsuranceSection from "@/components/insurance-section";
 import EventTypes from "@/components/event-types";
-import { BOOKING_URL } from "@/lib/constants";
+import { BOOKING_URL, CALENDLY_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Parties & Events | Altered Combat - Birthday Parties, Corporate Events",
@@ -62,7 +62,7 @@ export default function PartiesEventsPage() {
               consultation and let&apos;s build your perfect event.
             </p>
             <a
-              href="https://calendly.com/jerryac/event-experience-consultation-30-minutes"
+              href={CALENDLY_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-block text-lg px-10 py-4"

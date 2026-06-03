@@ -1,4 +1,4 @@
-import { BOOKING_URL } from "@/lib/constants";
+import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 ﻿import Link from "next/link";
 
 export const metadata = {
@@ -18,7 +18,7 @@ export default function MesaPage() {
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">Big city, big events. From East Mesa to Downtown, we bring tactical laser tag, VR, Nerf wars, and water battles to Mesa&apos;s diverse neighborhoods, schools, and community centers.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Your Mesa Event</a>
-            <a href="tel:623-476-4906" className="btn-secondary text-lg px-8 py-4">Call (623) 476-4906</a>
+            <a href={PHONE_HREF} className="btn-secondary text-lg px-8 py-4">Call {PHONE_NUMBER}</a>
           </div>
         </div>
       </section>

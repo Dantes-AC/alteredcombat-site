@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { BOOKING_URL } from "@/lib/constants";
+import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 
 const USFlagIcon = () => (
   <svg className="w-5 h-5" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -163,8 +163,8 @@ export default function Hero() {
             >
               Book Your Event
             </a>
-            <a href="tel:623-476-4906" className="btn-secondary text-lg px-10 py-4">
-              Call (623) 476-4906
+            <a href={PHONE_HREF} className="btn-secondary text-lg px-10 py-4">
+              Call {PHONE_NUMBER}
             </a>
           </div>
 

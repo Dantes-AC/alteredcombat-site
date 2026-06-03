@@ -1,4 +1,5 @@
 ﻿import React from "react";
+import { PHONE_NUMBER, PHONE_HREF, EMAIL } from "@/lib/constants";
 
 export default function PrivacyContent2() {
   return (
@@ -28,17 +29,17 @@ export default function PrivacyContent2() {
           <p className="text-gray-400 italic">
             &quot;For assistance, contact Altered Combat at{" "}
             <a
-              href="tel:623-476-4906"
+              href={PHONE_HREF}
               className="text-cyan-400 hover:text-cyan-300 not-italic"
             >
-              (623) 476-4906
+              {PHONE_NUMBER}
             </a>{" "}
             or email us at{" "}
             <a
-              href="mailto:info@alteredcombat.com"
+              href={`mailto:${EMAIL}`}
               className="text-cyan-400 hover:text-cyan-300 not-italic"
             >
-              info@alteredcombat.com
+              {EMAIL}
             </a>
             . Reply STOP to unsubscribe.&quot;
           </p>
@@ -190,18 +191,18 @@ export default function PrivacyContent2() {
           <br />
           📞{" "}
           <a
-            href="tel:623-476-4906"
+            href={PHONE_HREF}
             className="text-cyan-400 hover:text-cyan-300"
           >
-            (623) 476-4906
+            {PHONE_NUMBER}
           </a>
           <br />
           📧{" "}
           <a
-            href="mailto:info@alteredcombat.com"
+            href={`mailto:${EMAIL}`}
             className="text-cyan-400 hover:text-cyan-300"
           >
-            info@alteredcombat.com
+            {EMAIL}
           </a>
           <br />
           📍 Buckeye, Arizona

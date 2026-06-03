@@ -1,4 +1,4 @@
-import { BOOKING_URL } from "@/lib/constants";
+import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 ﻿import Link from "next/link";
 
 export const metadata = {
@@ -44,10 +44,10 @@ export default function TucsonPage() {
               Book Your Tucson Event
             </a>
             <a
-              href="tel:623-476-4906"
+              href={PHONE_HREF}
               className="btn-secondary text-lg px-8 py-4"
             >
-              Call (623) 476-4906
+              Call {PHONE_NUMBER}
             </a>
           </div>
         </div>

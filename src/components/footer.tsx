@@ -1,5 +1,6 @@
 ﻿import Link from 'next/link';
 import { Phone, MapPin } from 'lucide-react';
+import { PHONE_NUMBER, PHONE_HREF } from '@/lib/constants';
 
 // US Flag SVG component
 const USFlagIcon = () => (
@@ -102,9 +103,9 @@ export default function Footer() {
           <div>
             <h3 className='text-white font-bold text-lg mb-4'>Contact</h3>
             <div className='flex flex-col space-y-3 text-gray-400'>
-              <a href='tel:623-476-4906' className='hover:text-cyan-400 transition-colors flex items-center space-x-2'>
+              <a href={PHONE_HREF} className='hover:text-cyan-400 transition-colors flex items-center space-x-2'>
                 <Phone className='w-5 h-5' />
-                <span>(623) 476-4906</span>
+                <span>{PHONE_NUMBER}</span>
               </a>
               <Link 
                 href='/#reviews'

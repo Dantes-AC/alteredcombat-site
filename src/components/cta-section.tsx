@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BOOKING_URL } from "@/lib/constants";
+import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 
 
 export default function CTASection() {
@@ -23,8 +23,8 @@ export default function CTASection() {
           >
             Book Your Event
           </a>
-          <a href="tel:623-476-4906" className="btn-secondary text-lg px-10 py-4">
-            Call (623) 476-4906
+          <a href={PHONE_HREF} className="btn-secondary text-lg px-10 py-4">
+            Call {PHONE_NUMBER}
           </a>
         </div>
 

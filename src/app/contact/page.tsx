@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Phone, CalendarDays, PencilRuler } from "lucide-react";
+import { PHONE_NUMBER, PHONE_HREF, BOOKING_URL, CALENDLY_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Contact Us | Altered Combat - Get in Touch",
   description:
-    "Contact Altered Combat for mobile laser tag, Nerf Wars, and VR party bookings. Serving Arizona and beyond. Call (623) 476-4906 or send us a message.",
+    "Contact Altered Combat for mobile laser tag, Nerf Wars, and VR party bookings. Serving Arizona and beyond. Call {PHONE_NUMBER} or send us a message.",
 };
 
 // US Flag SVG component
@@ -97,10 +98,10 @@ export default function ContactPage() {
                 Call or Text
               </h3>
               <a
-                href="tel:623-476-4906"
+                href={PHONE_HREF}
                 className="text-2xl text-cyan-400 font-bold hover:text-cyan-300 transition-colors"
               >
-                (623) 476-4906
+                {PHONE_NUMBER}
               </a>
               <p className="text-gray-400 mt-2 text-sm">
                 We&apos;ll get back to you ASAP
@@ -116,7 +117,7 @@ export default function ContactPage() {
                 Book Online
               </h3>
               <a
-                href="https://fareharbor.com/embeds/book/alteredcombat/"
+                href={BOOKING_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary inline-block"
@@ -143,7 +144,7 @@ export default function ContactPage() {
               consultation and let&apos;s build your perfect event.
             </p>
             <a
-              href="https://calendly.com/jerryac/event-experience-consultation-30-minutes"
+              href={CALENDLY_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-block"

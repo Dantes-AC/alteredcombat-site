@@ -1,6 +1,6 @@
 ﻿import Link from "next/link";
 import type { Metadata } from "next";
-import { BOOKING_URL } from "@/lib/constants";
+import { BOOKING_URL, PHONE_NUMBER, PHONE_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Service Areas | Altered Combat - Mobile Laser Tag Across Arizona",
@@ -92,7 +92,7 @@ export default function ServiceAreasPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Your Event</a>
-            <a href="tel:623-476-4906" className="btn-secondary text-lg px-8 py-4">Call (623) 476-4906</a>
+            <a href={PHONE_HREF} className="btn-secondary text-lg px-8 py-4">Call {PHONE_NUMBER}</a>
           </div>
         </div>
       </section>
@@ -137,7 +137,7 @@ export default function ServiceAreasPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-teko text-4xl font-bold text-white mb-4">DON&apos;T SEE YOUR CITY?</h2>
           <p className="text-xl text-gray-300 mb-8">We travel anywhere in Arizona and beyond. If you&apos;ve got a space, we&apos;ll bring the games. Give us a call to discuss your event location.</p>
-          <a href="tel:623-476-4906" className="btn-primary text-lg px-8 py-4">Call (623) 476-4906</a>
+          <a href={PHONE_HREF} className="btn-primary text-lg px-8 py-4">Call {PHONE_NUMBER}</a>
         </div>
       </section>
 

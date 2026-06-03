@@ -1,5 +1,6 @@
 ﻿import Link from 'next/link';
 import type { Metadata } from 'next';
+import { PHONE_NUMBER, PHONE_HREF } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Our Games | Altered Combat - Laser Tag, Nerf Wars, VR & More',
@@ -198,8 +199,8 @@ export default function GamesPage() {
             Call us and we&apos;ll help you pick the perfect game for your group.
           </p>
           <div className='flex flex-col sm:flex-row items-center justify-center gap-4'>
-            <a href='tel:623-476-4906' className='btn-secondary text-lg px-10 py-4'>
-              Call (623) 476-4906
+            <a href={PHONE_HREF} className='btn-secondary text-lg px-10 py-4'>
+              Call {PHONE_NUMBER}
             </a>
           </div>
         </div>
