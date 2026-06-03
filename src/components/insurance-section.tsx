@@ -29,7 +29,7 @@ export default function InsuranceSection() {
           <div style={{marginBottom:'24px'}}>
             <div style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'16px'}}>
               <Umbrella style={{width:'48px', height:'48px', color:'#22d3ee', flexShrink:0}} />
-              <h2 style={{margin:0, fontFamily:'var(--font-teko)', fontSize:'2.25rem', fontWeight:'700', color:'white', lineHeight:1}}>
+              <h2 className="font-teko text-4xl font-bold text-white" style={{margin:0, lineHeight:1}}>
                 LICENSED & INSURED
               </h2>
             </div>
