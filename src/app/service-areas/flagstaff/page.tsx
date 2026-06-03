@@ -215,7 +215,6 @@ export default function FlagstaffPage() {
             {[
               { name: "Sedona", slug: "sedona" },
               { name: "Prescott", slug: "prescott" },
-              { name: "Williams", slug: "williams" },
             ].map((city) => (
               <Link
                 key={city.name}

@@ -200,7 +200,6 @@ export default function PrescottPage() {
           <p className="text-gray-400 mb-4">Also serving Northern Arizona:</p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              { name: "Prescott Valley", slug: "prescott-valley" },
               { name: "Sedona", slug: "sedona" },
               { name: "Flagstaff", slug: "flagstaff" },
             ].map((city) => (

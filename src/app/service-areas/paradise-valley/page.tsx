@@ -193,7 +193,6 @@ export default function ParadiseValleyPage() {
               { name: "Scottsdale", slug: "scottsdale" },
               { name: "Phoenix", slug: "phoenix" },
               { name: "Tempe", slug: "tempe" },
-              { name: "Arcadia", slug: "arcadia" },
             ].map((city) => (
               <Link
                 key={city.name}

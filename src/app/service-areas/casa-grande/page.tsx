@@ -189,8 +189,6 @@ export default function CasaGrandePage() {
           <div className="flex flex-wrap justify-center gap-3">
             {[
               { name: "Maricopa", slug: "maricopa" },
-              { name: "Coolidge", slug: "coolidge" },
-              { name: "Eloy", slug: "eloy" },
               { name: "Tucson", slug: "tucson" },
             ].map((city) => (
               <Link

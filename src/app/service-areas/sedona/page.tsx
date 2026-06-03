@@ -203,7 +203,6 @@ export default function SedonaPage() {
             {[
               { name: "Flagstaff", slug: "flagstaff" },
               { name: "Prescott", slug: "prescott" },
-              { name: "Cottonwood", slug: "cottonwood" },
             ].map((city) => (
               <Link
                 key={city.name}

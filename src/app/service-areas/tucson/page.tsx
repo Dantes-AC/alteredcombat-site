@@ -251,7 +251,6 @@ export default function TucsonPage() {
             {[
               { name: "Casa Grande", slug: "casa-grande" },
               { name: "Maricopa", slug: "maricopa" },
-              { name: "Sierra Vista", slug: "sierra-vista" },
             ].map((city) => (
               <Link
                 key={city.name}
