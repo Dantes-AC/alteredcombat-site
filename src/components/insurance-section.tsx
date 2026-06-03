@@ -26,7 +26,7 @@ export default function InsuranceSection() {
         <div className="bg-[#12121a] border border-gray-800 rounded-2xl p-8 md:p-12">
 
           {/* Header */}
-          <div className="flex items-center space-x-4 mb-8">
+          <div className="flex items-start space-x-4 mb-8">
             <div className="flex-shrink-0 flex items-center justify-center text-cyan-400">
               <Umbrella className="w-10 h-10" />
             </div>
@@ -45,7 +45,7 @@ export default function InsuranceSection() {
             {coverageItems.map((item) => (
               <div
                 key={item.title}
-                className="flex items-start space-x-3 p-4 rounded-xl bg-[#0a0a0f]/50 border border-gray-800/50"
+                className="flex items-center space-x-3 p-4 rounded-xl bg-[#0a0a0f]/50 border border-gray-800/50"
               >
                 <div className="flex-shrink-0 flex items-center justify-center text-cyan-400 mt-0.5">
                   <Check className="w-4 h-4" />
