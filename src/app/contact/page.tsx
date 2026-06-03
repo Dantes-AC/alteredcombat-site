@@ -1,74 +1,13 @@
 import type { Metadata } from "next";
 import { Phone, CalendarDays, PencilRuler } from "lucide-react";
 import { PHONE_NUMBER, PHONE_HREF, BOOKING_URL, CALENDLY_URL } from "@/lib/constants";
+import USFlagIcon from "@/components/ui/us-flag-icon";
 
 export const metadata: Metadata = {
   title: "Contact Us | Altered Combat - Get in Touch",
   description:
     "Contact Altered Combat for mobile laser tag, Nerf Wars, and VR party bookings. Serving Arizona and beyond. Call {PHONE_NUMBER} or send us a message.",
 };
-
-// US Flag SVG component
-const USFlagIcon = () => (
-  <svg
-    className="w-6 h-6"
-    viewBox="0 0 24 16"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect width="24" height="16" fill="#B22234" />
-    <rect y="1.23" width="24" height="1.23" fill="white" />
-    <rect y="3.69" width="24" height="1.23" fill="white" />
-    <rect y="6.15" width="24" height="1.23" fill="white" />
-    <rect y="8.62" width="24" height="1.23" fill="white" />
-    <rect y="11.08" width="24" height="1.23" fill="white" />
-    <rect y="13.54" width="24" height="1.23" fill="white" />
-    <rect width="9.6" height="8.62" fill="#3C3B6E" />
-    <g fill="white">
-      <circle cx="1.2" cy="0.86" r="0.4" />
-      <circle cx="2.8" cy="0.86" r="0.4" />
-      <circle cx="4.4" cy="0.86" r="0.4" />
-      <circle cx="6" cy="0.86" r="0.4" />
-      <circle cx="7.6" cy="0.86" r="0.4" />
-      <circle cx="2" cy="1.72" r="0.4" />
-      <circle cx="3.6" cy="1.72" r="0.4" />
-      <circle cx="5.2" cy="1.72" r="0.4" />
-      <circle cx="6.8" cy="1.72" r="0.4" />
-      <circle cx="1.2" cy="2.58" r="0.4" />
-      <circle cx="2.8" cy="2.58" r="0.4" />
-      <circle cx="4.4" cy="2.58" r="0.4" />
-      <circle cx="6" cy="2.58" r="0.4" />
-      <circle cx="7.6" cy="2.58" r="0.4" />
-      <circle cx="2" cy="3.44" r="0.4" />
-      <circle cx="3.6" cy="3.44" r="0.4" />
-      <circle cx="5.2" cy="3.44" r="0.4" />
-      <circle cx="6.8" cy="3.44" r="0.4" />
-      <circle cx="1.2" cy="4.3" r="0.4" />
-      <circle cx="2.8" cy="4.3" r="0.4" />
-      <circle cx="4.4" cy="4.3" r="0.4" />
-      <circle cx="6" cy="4.3" r="0.4" />
-      <circle cx="7.6" cy="4.3" r="0.4" />
-      <circle cx="2" cy="5.16" r="0.4" />
-      <circle cx="3.6" cy="5.16" r="0.4" />
-      <circle cx="5.2" cy="5.16" r="0.4" />
-      <circle cx="6.8" cy="5.16" r="0.4" />
-      <circle cx="1.2" cy="6.02" r="0.4" />
-      <circle cx="2.8" cy="6.02" r="0.4" />
-      <circle cx="4.4" cy="6.02" r="0.4" />
-      <circle cx="6" cy="6.02" r="0.4" />
-      <circle cx="7.6" cy="6.02" r="0.4" />
-      <circle cx="2" cy="6.88" r="0.4" />
-      <circle cx="3.6" cy="6.88" r="0.4" />
-      <circle cx="5.2" cy="6.88" r="0.4" />
-      <circle cx="6.8" cy="6.88" r="0.4" />
-      <circle cx="1.2" cy="7.74" r="0.4" />
-      <circle cx="2.8" cy="7.74" r="0.4" />
-      <circle cx="4.4" cy="7.74" r="0.4" />
-      <circle cx="6" cy="7.74" r="0.4" />
-      <circle cx="7.6" cy="7.74" r="0.4" />
-    </g>
-  </svg>
-);
 
 export default function ContactPage() {
   return (
@@ -169,7 +108,7 @@ export default function ContactPage() {
           {/* Veteran Badge */}
           <div className="mt-8 text-center">
             <div className="inline-flex items-center space-x-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full px-6 py-3">
-              <USFlagIcon />
+              <USFlagIcon className="w-6 h-6" />
               <span className="text-cyan-400 font-semibold">
                 Veteran Owned & Operated Since 2020
               </span>
