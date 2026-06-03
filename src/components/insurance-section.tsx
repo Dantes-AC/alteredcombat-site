@@ -26,32 +26,28 @@ export default function InsuranceSection() {
         <div className="bg-[#12121a] border border-gray-800 rounded-2xl p-8 md:p-12">
 
           {/* Header */}
-          <div className="mb-2" style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'16px'}}>
-            <Umbrella className="w-12 h-12 text-cyan-400 flex-shrink-0" />
-            <div>
-              <h2 className="font-teko text-4xl font-bold text-white">
-                LICENSED & INSURED
-              </h2>
-              <p className="text-gray-400">
-                Book with confidence. We carry comprehensive coverage for your protection.
-              </p>
-            </div>
+          <div style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'16px', marginBottom:'8px'}}>
+            <Umbrella style={{width:'48px', height:'48px', color:'#22d3ee', flexShrink:0}} />
+            <h2 className="font-teko text-4xl font-bold text-white leading-none">
+              LICENSED & INSURED
+            </h2>
           </div>
+          <p className="text-gray-400 mb-8">
+            Book with confidence. We carry comprehensive coverage for your protection.
+          </p>
 
           {/* Coverage Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {coverageItems.map((item) => (
               <div
                 key={item.title}
-                className="flex items-start space-x-3 p-4 rounded-xl bg-[#0a0a0f]/50 border border-gray-800/50"
+                className="p-4 rounded-xl bg-[#0a0a0f]/50 border border-gray-800/50"
               >
-                <div>
-                  <div className="mb-1" style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'10px'}}>
-                    <Check className="w-5 h-5 text-cyan-400" />
-                    <p className="text-white font-medium">{item.title}</p>
-                  </div>
-                  <p className="text-gray-500 text-sm">{item.description}</p>
+                <div style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'10px', marginBottom:'4px'}}>
+                  <Check style={{width:'18px', height:'18px', color:'#22d3ee', flexShrink:0}} />
+                  <p className="text-white font-medium leading-none">{item.title}</p>
                 </div>
+                <p className="text-gray-500 text-sm" style={{marginLeft:'28px'}}>{item.description}</p>
               </div>
             ))}
           </div>
