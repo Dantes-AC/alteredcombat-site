@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Hero />
       <GamesPreview />
-      <EventTypes />
+      <EventTypes variant="homepage" />
       <WhyChooseUs />
       <PromiseSection />
       <ReviewsSection />

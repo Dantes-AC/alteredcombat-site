@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { PencilRuler } from "lucide-react";
 import InsuranceSection from "@/components/insurance-section";
-import EventTypesGrid from "@/components/event-types-grid";
+import EventTypes from "@/components/event-types";
 import { BOOKING_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -43,7 +43,7 @@ export default function PartiesEventsPage() {
       </section>
 
       {/* Event Types */}
-      <EventTypesGrid />
+      <EventTypes variant="full" />
 
       {/* Insurance Section */}
       <InsuranceSection />
