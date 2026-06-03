@@ -32,7 +32,7 @@ export default function InsuranceSection() {
               LICENSED & INSURED
             </h2>
           </div>
-          <p className="text-gray-400 mb-8" style={{marginLeft:'64px'}}>
+          <p className="text-gray-400 mb-6" style={{marginLeft:'64px', marginTop:'-4px'}}>
             Book with confidence. We carry comprehensive coverage for your protection.
           </p>
 
@@ -43,7 +43,7 @@ export default function InsuranceSection() {
                 key={item.title}
                 className="p-4 rounded-xl bg-[#0a0a0f]/50 border border-gray-800/50"
               >
-                <div style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'10px', marginBottom:'4px'}}>
+                <div style={{display:'flex', flexDirection:'row', alignItems:'center', gap:'10px', marginBottom:'2px'}}>
                   <Check style={{width:'18px', height:'18px', color:'#22d3ee', flexShrink:0}} />
                   <p className="text-white font-medium leading-none">{item.title}</p>
                 </div>
