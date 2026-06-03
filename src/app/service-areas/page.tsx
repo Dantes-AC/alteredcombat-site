@@ -121,7 +121,7 @@ export default function ServiceAreasPage() {
                       >
                         <span className="text-white font-medium">{city.name}</span>
                         {city.isHomeBase && (
-                          <span className={`text-xs ${colors.text} mt-1`}>Home Base</span>
+                          <span className={`text-sm ${colors.text} mt-1`}>Home Base</span>
                         )}
                       </Link>
                     ))}

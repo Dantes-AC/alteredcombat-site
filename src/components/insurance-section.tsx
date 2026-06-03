@@ -31,7 +31,7 @@ export default function InsuranceSection() {
               <Umbrella className="w-10 h-10" />
             </div>
             <div>
-              <h2 className="font-teko text-3xl font-bold text-white mb-1">
+              <h2 className="font-teko text-4xl font-bold text-white mb-1">
                 LICENSED & INSURED
               </h2>
               <p className="text-gray-400">

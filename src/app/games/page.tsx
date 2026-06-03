@@ -160,7 +160,7 @@ export default function GamesPage() {
                   
                   {/* What to Expect */}
                   <div className='mb-6'>
-                    <p className='text-xs uppercase tracking-wider text-gray-500 mb-3'>What to expect</p>
+                    <p className='text-sm uppercase tracking-wider text-gray-500 mb-3'>What to expect</p>
                     <ul className='space-y-2'>
                       {game.features.map((feature) => (
                         <li key={feature} className='flex items-start text-gray-400 text-sm'>

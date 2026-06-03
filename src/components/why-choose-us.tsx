@@ -46,7 +46,7 @@ export default function WhyChooseUs() {
                 {reason.icon}
               </div>
               <div>
-                <h3 className="font-teko text-xl font-semibold text-white mb-1">
+                <h3 className="font-teko text-2xl font-semibold text-white mb-1">
                   {reason.title}
                 </h3>
                 <p className="text-gray-400">
