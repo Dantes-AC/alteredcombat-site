@@ -33,7 +33,7 @@ export default function InsuranceSection() {
                 LICENSED & INSURED
               </h2>
             </div>
-            <p style={{margin:0, marginTop:'6px', marginLeft:'64px', color:'#9ca3af'}}>
+            <p style={{margin:0, marginTop:'12px', marginLeft:'64px', color:'#9ca3af'}}>
               Book with confidence. We carry comprehensive coverage for your protection.
             </p>
           </div>
