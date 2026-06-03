@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { CalendarClock } from "lucide-react";
 import InsuranceSection from "@/components/insurance-section";
 import EventTypesGrid from "@/components/event-types-grid";
 import { BOOKING_URL } from "@/lib/constants";
@@ -51,23 +52,7 @@ export default function PartiesEventsPage() {
       <section className="py-16 bg-[#0f0f18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-[#12121a] border border-cyan-500/30 rounded-2xl p-8 md:p-12 text-center">
-            {/* CalendarClock icon */}
-            <svg
-              className="w-10 h-10 text-cyan-400 mx-auto mb-4"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={1.5}
-              viewBox="0 0 24 24"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M21 7.5V6a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h3.5" />
-              <path d="M16 2v4" />
-              <path d="M8 2v4" />
-              <path d="M3 10h5" />
-              <circle cx="16" cy="16" r="6" />
-              <path d="M16 14v2l1 1" />
-            </svg>
+            <CalendarClock className="w-10 h-10 text-cyan-400 mx-auto mb-4" />
             <h2 className="font-teko text-3xl sm:text-4xl font-bold text-white mb-3">
               NEED SOMETHING CUSTOM?
             </h2>

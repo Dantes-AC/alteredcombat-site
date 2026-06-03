@@ -1,4 +1,5 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
+import { Phone, CalendarDays, CalendarClock } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact Us | Altered Combat - Get in Touch",
@@ -68,26 +69,6 @@ const USFlagIcon = () => (
   </svg>
 );
 
-// Calendar Clock SVG icon (replaces lucide-react dependency)
-const CalendarClockIcon = () => (
-  <svg
-    className="w-10 h-10 text-cyan-400"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth={1.5}
-    viewBox="0 0 24 24"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="M21 7.5V6a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h3.5" />
-    <path d="M16 2v4" />
-    <path d="M8 2v4" />
-    <path d="M3 10h5" />
-    <circle cx="16" cy="16" r="6" />
-    <path d="M16 14v2l1 1" />
-  </svg>
-);
-
 export default function ContactPage() {
   return (
     <div className="pt-20">
@@ -110,19 +91,7 @@ export default function ContactPage() {
             {/* Phone */}
             <div className="bg-[#12121a] border border-gray-800 rounded-2xl p-8 text-center">
               <div className="w-16 h-16 bg-cyan-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg
-                  className="w-8 h-8 text-cyan-400"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                  />
-                </svg>
+                <Phone className="w-8 h-8 text-cyan-400" />
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">
                 Call or Text
@@ -141,19 +110,7 @@ export default function ContactPage() {
             {/* Book Online */}
             <div className="bg-[#12121a] border border-gray-800 rounded-2xl p-8 text-center">
               <div className="w-16 h-16 bg-cyan-500/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg
-                  className="w-8 h-8 text-cyan-400"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  />
-                </svg>
+                <CalendarDays className="w-8 h-8 text-cyan-400" />
               </div>
               <h3 className="font-teko text-2xl font-semibold text-white mb-2">
                 Book Online
@@ -175,7 +132,7 @@ export default function ContactPage() {
           {/* Custom Event Consultation */}
           <div className="mt-8 bg-[#12121a] border border-cyan-500/30 rounded-2xl p-8 text-center">
             <div className="mx-auto mb-4 flex justify-center">
-              <CalendarClockIcon />
+              <CalendarClock className="w-10 h-10 text-cyan-400" />
             </div>
             <h3 className="font-teko text-2xl font-semibold text-white mb-2">
               NEED SOMETHING CUSTOM?

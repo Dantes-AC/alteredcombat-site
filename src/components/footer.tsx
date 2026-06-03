@@ -1,9 +1,9 @@
 ﻿import Link from 'next/link';
+import { Phone, MapPin } from 'lucide-react';
 
 // US Flag SVG component
 const USFlagIcon = () => (
   <svg className='w-5 h-5' viewBox='0 0 24 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
-    {/* Red and white stripes */}
     <rect width='24' height='16' fill='#B22234'/>
     <rect y='1.23' width='24' height='1.23' fill='white'/>
     <rect y='3.69' width='24' height='1.23' fill='white'/>
@@ -11,9 +11,7 @@ const USFlagIcon = () => (
     <rect y='8.62' width='24' height='1.23' fill='white'/>
     <rect y='11.08' width='24' height='1.23' fill='white'/>
     <rect y='13.54' width='24' height='1.23' fill='white'/>
-    {/* Blue canton */}
     <rect width='9.6' height='8.62' fill='#3C3B6E'/>
-    {/* Stars (simplified) */}
     <g fill='white'>
       <circle cx='1.2' cy='0.86' r='0.4'/>
       <circle cx='2.8' cy='0.86' r='0.4'/>
@@ -105,9 +103,7 @@ export default function Footer() {
             <h3 className='text-white font-bold text-lg mb-4'>Contact</h3>
             <div className='flex flex-col space-y-3 text-gray-400'>
               <a href='tel:623-476-4906' className='hover:text-cyan-400 transition-colors flex items-center space-x-2'>
-                <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z' />
-                </svg>
+                <Phone className='w-5 h-5' />
                 <span>(623) 476-4906</span>
               </a>
               <Link 
@@ -124,10 +120,7 @@ export default function Footer() {
                 <span>Google Reviews</span>
               </Link>
               <div className='flex items-start space-x-2'>
-                <svg className='w-5 h-5 mt-0.5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z' />
-                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M15 11a3 3 0 11-6 0 3 3 0 016 0z' />
-                </svg>
+                <MapPin className='w-5 h-5 mt-0.5' />
                 <span>
                   <Link href='/service-areas' className='hover:text-cyan-400 transition-colors'>
                     Serving Arizona & Beyond
