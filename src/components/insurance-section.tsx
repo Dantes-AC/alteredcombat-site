@@ -27,9 +27,9 @@ export default function InsuranceSection() {
 
           {/* Header */}
           <div className="flex items-center space-x-4 mb-8">
-            <Umbrella className="w-12 h-12 flex-shrink-0 text-cyan-400" />
+            <Umbrella className="w-12 h-12 text-cyan-400 flex-shrink-0" />
             <div>
-              <h2 className="font-teko text-4xl font-bold text-white mb-1">
+              <h2 className="font-teko text-4xl font-bold text-white">
                 LICENSED & INSURED
               </h2>
               <p className="text-gray-400">
@@ -45,7 +45,7 @@ export default function InsuranceSection() {
                 key={item.title}
                 className="flex items-center space-x-3 p-4 rounded-xl bg-[#0a0a0f]/50 border border-gray-800/50"
               >
-                <Check className="w-4 h-4 flex-shrink-0 text-cyan-400" />
+                <Check className="w-5 h-5 text-cyan-400 flex-shrink-0" />
                 <div>
                   <p className="text-white font-medium">{item.title}</p>
                   <p className="text-gray-500 text-sm">{item.description}</p>
