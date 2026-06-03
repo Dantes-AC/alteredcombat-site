@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { PencilRuler } from "lucide-react";
 import InsuranceSection from "@/components/insurance-section";
+import InsuranceSectionTailwind from "@/components/insurance-section-tailwind";
 import EventTypes from "@/components/event-types";
 import { BOOKING_URL, CALENDLY_URL } from "@/lib/constants";
 
@@ -47,6 +48,7 @@ export default function PartiesEventsPage() {
 
       {/* Insurance Section */}
       <InsuranceSection />
+      <InsuranceSectionTailwind />
 
       {/* Custom Event Consultation */}
       <section className="py-16 bg-[#0f0f18]">

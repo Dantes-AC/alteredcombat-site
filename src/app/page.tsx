@@ -6,8 +6,6 @@ import PromiseSection from "@/components/promise-section";
 import ReviewsSection from "@/components/reviews-section";
 import HowItWorksPreview from "@/components/how-it-works-preview";
 import CTASection from "@/components/cta-section";
-import InsuranceSection from "@/components/insurance-section";
-import InsuranceSectionTailwind from "@/components/insurance-section-tailwind";
 
 export default function Home() {
   return (
@@ -19,8 +17,6 @@ export default function Home() {
       <PromiseSection />
       <ReviewsSection />
       <HowItWorksPreview />
-      <InsuranceSection />
-      <InsuranceSectionTailwind />
       <CTASection />
     </>
   );
