@@ -1,4 +1,4 @@
-import { FileCheck, CheckCircle } from 'lucide-react';
+import { Umbrella, Check } from 'lucide-react';
 
 export default function InsuranceSection() {
   return (
@@ -7,7 +7,7 @@ export default function InsuranceSection() {
         <div className="bg-[#12121a] border border-gray-800 rounded-2xl p-8 md:p-12">
           <div className="flex items-start space-x-4 mb-6">
             <div className="flex-shrink-0 text-cyan-400">
-              <FileCheck className="w-10 h-10" />
+              <Umbrella className="w-10 h-10" />
             </div>
             <div>
               <h2 className="font-teko text-3xl font-bold text-white mb-2">
@@ -22,7 +22,7 @@ export default function InsuranceSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-3">
               <div className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-cyan-500 mr-3 mt-0.5 flex-shrink-0" />
+                <Check className="w-5 h-5 text-cyan-500 mr-3 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-white font-medium">
                     $1M/$2M General Liability
@@ -34,7 +34,7 @@ export default function InsuranceSection() {
               </div>
 
               <div className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-cyan-500 mr-3 mt-0.5 flex-shrink-0" />
+                <Check className="w-5 h-5 text-cyan-500 mr-3 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-white font-medium">
                     Inland Marine Insurance
@@ -48,7 +48,7 @@ export default function InsuranceSection() {
 
             <div className="space-y-3">
               <div className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-cyan-500 mr-3 mt-0.5 flex-shrink-0" />
+                <Check className="w-5 h-5 text-cyan-500 mr-3 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-white font-medium">
                     Errors & Omissions Coverage
@@ -60,7 +60,7 @@ export default function InsuranceSection() {
               </div>
 
               <div className="flex items-start">
-                <CheckCircle className="w-5 h-5 text-cyan-500 mr-3 mt-0.5 flex-shrink-0" />
+                <Check className="w-5 h-5 text-cyan-500 mr-3 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-white font-medium">
                     Licensed Business
