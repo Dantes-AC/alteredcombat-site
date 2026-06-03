@@ -25,7 +25,7 @@ const regions = [
   },
   {
     name: "East Valley",
-    description: "Gilbert, Chandler, Mesa & beyond. We&apos;ve got the East covered.",
+    description: "Gilbert, Chandler, Mesa & beyond. We've got the East covered.",
     color: "green",
     cities: [
       { name: "Gilbert", slug: "gilbert" },
@@ -49,7 +49,7 @@ const regions = [
   },
   {
     name: "Northern Arizona",
-    description: "Mountain towns & cooler temps. We&apos;ll make the drive.",
+    description: "Mountain towns & cooler temps. We'll make the drive.",
     color: "blue",
     cities: [
       { name: "Flagstaff", slug: "flagstaff" },
@@ -59,7 +59,7 @@ const regions = [
   },
   {
     name: "Southern Arizona",
-    description: "Tucson and beyond. Arizona&apos;s southern frontier.",
+    description: "Tucson and beyond. Arizona's southern frontier.",
     color: "red",
     cities: [
       { name: "Tucson", slug: "tucson" },
@@ -88,7 +88,7 @@ export default function ServiceAreasPage() {
             WE BRING THE <span className="text-cyan-400">ACTION</span> TO YOU
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Based in Buckeye, serving all of Arizona and beyond. No matter where you are, we&apos;ll set up the battlefield at your location.
+            Based in Buckeye, serving all of Arizona and beyond. No matter where you are, we'll set up the battlefield at your location.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Your Event</a>
@@ -135,8 +135,8 @@ export default function ServiceAreasPage() {
 
       <section className="py-20 bg-[#12121a]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-teko text-4xl font-bold text-white mb-4">DON&apos;T SEE YOUR CITY?</h2>
-          <p className="text-xl text-gray-300 mb-8">We travel anywhere in Arizona and beyond. If you&apos;ve got a space, we&apos;ll bring the games. Give us a call to discuss your event location.</p>
+          <h2 className="font-teko text-4xl font-bold text-white mb-4">DON'T SEE YOUR CITY?</h2>
+          <p className="text-xl text-gray-300 mb-8">We travel anywhere in Arizona and beyond. If you've got a space, we'll bring the games. Give us a call to discuss your event location.</p>
           <a href={PHONE_HREF} className="btn-primary text-lg px-8 py-4">Call {PHONE_NUMBER}</a>
         </div>
       </section>
@@ -144,7 +144,7 @@ export default function ServiceAreasPage() {
       <section className="py-20 bg-gradient-to-b from-[#12121a] to-[#0a0a0f]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-6">READY TO PLAY?</h2>
-          <p className="text-xl text-gray-300 mb-8">Book online or give us a call. We&apos;ll handle the rest.</p>
+          <p className="text-xl text-gray-300 mb-8">Book online or give us a call. We'll handle the rest.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4">Book Now</a>
             <Link href="/games" className="btn-secondary text-lg px-8 py-4">View Our Games</Link>
