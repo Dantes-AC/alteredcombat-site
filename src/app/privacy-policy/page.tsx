@@ -1,8 +1,7 @@
 "use client";
 
 import React from "react";
-import PrivacyContent from "../../components/privacy-content-1";
-import PrivacyContent2 from "../../components/privacy-content-2";
+import PrivacyContent from "../../components/privacy-content";
 
 export default function PrivacyPolicyPage() {
   return (
@@ -21,7 +20,6 @@ export default function PrivacyPolicyPage() {
 
       <section className="py-16 bg-[#0f0f18]">
         <PrivacyContent />
-        <PrivacyContent2 />
       </section>
     </div>
   );
