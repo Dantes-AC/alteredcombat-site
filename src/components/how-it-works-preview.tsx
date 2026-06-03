@@ -9,7 +9,7 @@ const steps = [
   {
     number: "2",
     title: "We Set Up (Or You Pick Up)",
-    description: "For hosted events, our team arrives and sets up. For rentals, pick up the equipment or we&apos;ll drop it off.",
+    description: "For hosted events, our team arrives and sets up. For rentals, pick up the equipment or we'll drop it off.",
   },
   {
     number: "3",
@@ -19,7 +19,7 @@ const steps = [
   {
     number: "4",
     title: "We Pack Up (Or You Return)",
-    description: "For hosted events, we handle breakdown and cleanup. For rentals, return the equipment or we&apos;ll pick it up.",
+    description: "For hosted events, we handle breakdown and cleanup. For rentals, return the equipment or we'll pick it up.",
   },
 ];
 
