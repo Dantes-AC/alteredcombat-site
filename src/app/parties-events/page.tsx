@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { CalendarClock } from "lucide-react";
+import { PencilRuler } from "lucide-react";
 import InsuranceSection from "@/components/insurance-section";
 import EventTypesGrid from "@/components/event-types-grid";
 import { BOOKING_URL } from "@/lib/constants";
@@ -52,7 +52,7 @@ export default function PartiesEventsPage() {
       <section className="py-16 bg-[#0f0f18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-[#12121a] border border-cyan-500/30 rounded-2xl p-8 md:p-12 text-center">
-            <CalendarClock className="w-10 h-10 text-cyan-400 mx-auto mb-4" />
+            <PencilRuler className="w-10 h-10 text-cyan-400 mx-auto mb-4" />
             <h2 className="font-teko text-3xl sm:text-4xl font-bold text-white mb-3">
               NEED SOMETHING CUSTOM?
             </h2>

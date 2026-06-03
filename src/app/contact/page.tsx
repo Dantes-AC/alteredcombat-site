@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Phone, CalendarDays, CalendarClock } from "lucide-react";
+import { Phone, CalendarDays, PencilRuler } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact Us | Altered Combat - Get in Touch",
@@ -132,7 +132,7 @@ export default function ContactPage() {
           {/* Custom Event Consultation */}
           <div className="mt-8 bg-[#12121a] border border-cyan-500/30 rounded-2xl p-8 text-center">
             <div className="mx-auto mb-4 flex justify-center">
-              <CalendarClock className="w-10 h-10 text-cyan-400" />
+              <PencilRuler className="w-10 h-10 text-cyan-400" />
             </div>
             <h3 className="font-teko text-2xl font-semibold text-white mb-2">
               NEED SOMETHING CUSTOM?
