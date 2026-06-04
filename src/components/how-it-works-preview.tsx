@@ -39,11 +39,6 @@ export default function HowItWorksPreview() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
             <div key={step.number} className="relative">
-              {/* Connector line */}
-              {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-cyan-500/50 to-transparent -translate-x-4"></div>
-              )}
-              
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-cyan-500/10 border-2 border-cyan-500 mb-4">
                   <span className="font-teko text-2xl font-bold text-cyan-400">{step.number}</span>
