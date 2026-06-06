@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Heart, Megaphone, Trophy, DollarSign, Shield, HelpCircle } from "lucide-react";
+import { Heart, Megaphone, Trophy, DollarSign, Flame, HelpCircle } from "lucide-react";
 import { BOOKING_URL, CALENDLY_URL } from "@/lib/constants";
 
 export default function ReferralProgramPage() {
@@ -128,7 +128,7 @@ export default function ReferralProgramPage() {
           <div className="flex flex-col md:flex-row gap-10 items-start">
             <div className="flex-shrink-0">
               <div className="w-16 h-16 bg-cyan-500/10 border border-cyan-500/30 rounded-full flex items-center justify-center">
-                <Shield className="w-8 h-8 text-cyan-400" />
+                <Flame className="w-8 h-8 text-cyan-400" />
               </div>
             </div>
             <div className="space-y-4">
