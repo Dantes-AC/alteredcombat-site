@@ -219,7 +219,7 @@ function FAQAccordion({ items }: { items: FAQItem[] }) {
         <div key={i}>
           <button
             onClick={() => setOpenIndex(openIndex === i ? null : i)}
-            className="w-full text-left py-5 flex items-center justify-between gap-4 group"
+            className="w-full text-left py-5 flex items-center justify-between gap-4 group bg-transparent"
             aria-expanded={openIndex === i}
           >
             <span className="text-white font-medium text-lg group-hover:text-cyan-300 transition-colors">
