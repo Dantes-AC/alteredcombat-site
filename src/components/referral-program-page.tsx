@@ -173,17 +173,17 @@ export default function ReferralProgramPage() {
                 call and mention your name directly. Either way, we've got you
                 covered.
               </p>
-              <div className="mt-6 flex flex-col items-center">
-                <img
-                  src="/images/Referral_Screenshot.png"
-                  alt="FareHarbor checkout showing the Word of mouth dropdown and referring customer name field"
-                  className="w-full max-w-[400px] rounded-lg"
-                />
-                <p className="mt-2 text-sm text-gray-500">
-                  What your friend will see at checkout.
-                </p>
-              </div>
             </div>
+          </div>
+          <div className="mt-10 flex flex-col items-center">
+            <img
+              src="/images/Referral_Screenshot.png"
+              alt="FareHarbor checkout showing the Word of mouth dropdown and referring customer name field"
+              className="w-full max-w-[400px] rounded-lg"
+            />
+            <p className="mt-2 text-sm text-gray-500">
+              What your friend will see at checkout.
+            </p>
           </div>
         </div>
       </section>
