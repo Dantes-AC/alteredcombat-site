@@ -40,6 +40,9 @@ export default function Footer() {
               <Link href='/contact' className='text-gray-400 hover:text-cyan-400 transition-colors'>
                 Contact Us
               </Link>
+              <Link href='/referral-program' className='text-gray-400 hover:text-cyan-400 transition-colors'>
+                Referral Program
+              </Link>
             </nav>
           </div>
 
