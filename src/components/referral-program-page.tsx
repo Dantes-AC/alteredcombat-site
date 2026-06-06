@@ -161,19 +161,17 @@ export default function ReferralProgramPage() {
                 GIVE CREDIT, GET CREDIT
               </h2>
               <p className="text-gray-400 text-lg">
-                There's nothing complicated here. Our checkout form already
-                includes a "How did you hear about us?" field. When your
-                referred friend books, they simply enter your name in that
-                field.
+                When your friend books, they select "Word of mouth" from the
+                "How did you hear about us?" dropdown. That triggers a second
+                field — "What is the full name of the referring customer?" —
+                where they enter your name. Once we see your name on the
+                booking, we'll reach out to let you know you've earned credit
+                and how much.
               </p>
               <p className="text-gray-400 text-lg">
-                We review every booking, match the name, and apply your credit
-                manually. No tracking pixels, no referral codes, no third-party
-                apps. Just a name and a handshake.
-              </p>
-              <p className="text-gray-400 text-sm text-cyan-400">
-                Have a question about a referral? Reach out anytime — we're
-                easy to get ahold of.
+                Prefer to keep it simple? Your friend can also just give us a
+                call and mention your name directly. Either way, we've got you
+                covered.
               </p>
             </div>
           </div>
