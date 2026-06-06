@@ -62,51 +62,10 @@ export default function ReferralProgramPage() {
                 EARN BOOKING CREDIT
               </h3>
               <p className="text-gray-400">
-                Once their booking is confirmed, we'll apply credit to your
-                account automatically — no forms, no hassle.
+                Once their booking is confirmed, you earn up to $100 in credit
+                toward your next event. We'll send you a gift card code by
+                email that you can apply right at checkout.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Credit Details */}
-      <section className="py-20 bg-[#0a0a0f]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-[#12121a] border border-cyan-500/30 rounded-2xl p-8 md:p-12">
-            <h2 className="font-teko text-4xl font-bold text-white text-center mb-8">
-              CREDIT DETAILS
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <div className="space-y-2">
-                <p className="text-cyan-400 font-semibold text-sm uppercase tracking-wide">
-                  How Much
-                </p>
-                <p className="text-white text-lg">
-                  ~7% of the referred booking value
-                </p>
-                <p className="text-gray-400 text-sm">
-                  Up to a maximum of $100 per referral
-                </p>
-              </div>
-              <div className="space-y-2">
-                <p className="text-cyan-400 font-semibold text-sm uppercase tracking-wide">
-                  What You Get
-                </p>
-                <p className="text-white text-lg">Altered Combat booking credit</p>
-                <p className="text-gray-400 text-sm">
-                  Applied to your next event with us
-                </p>
-              </div>
-              <div className="space-y-2">
-                <p className="text-cyan-400 font-semibold text-sm uppercase tracking-wide">
-                  No Limit on Referrals
-                </p>
-                <p className="text-white text-lg">Refer as many as you like</p>
-                <p className="text-gray-400 text-sm">
-                  Every confirmed booking earns you credit
-                </p>
-              </div>
             </div>
           </div>
         </div>
