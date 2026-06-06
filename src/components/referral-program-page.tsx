@@ -45,12 +45,12 @@ export default function ReferralProgramPage() {
                 <Megaphone className="w-8 h-8 text-cyan-400" />
               </div>
               <h3 className="font-teko text-2xl font-bold text-white">
-                TELL SOMEONE ABOUT US
+                SPREAD THE WORD
               </h3>
               <p className="text-gray-400">
-                Word spreads. When someone you know is planning an event, tell
-                them about Altered Combat and have them mention your name at
-                checkout.
+                When someone you know is planning a party or event, tell them
+                about Altered Combat and ask them to mention your name when
+                they book.
               </p>
             </div>
 
