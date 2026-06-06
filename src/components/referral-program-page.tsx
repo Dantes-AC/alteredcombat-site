@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Heart, Megaphone, Trophy, DollarSign, Flame, HelpCircle } from "lucide-react";
+import { Heart, Megaphone, Trophy, DollarSign, Flame, CreditCard } from "lucide-react";
 import { BOOKING_URL, CALENDLY_URL } from "@/lib/constants";
 
 export default function ReferralProgramPage() {
@@ -77,7 +77,7 @@ export default function ReferralProgramPage() {
             <h2 className="font-teko text-4xl font-bold text-white text-center mb-8">
               CREDIT DETAILS
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="space-y-2">
                 <p className="text-cyan-400 font-semibold text-sm uppercase tracking-wide">
                   How Much
@@ -100,19 +100,9 @@ export default function ReferralProgramPage() {
               </div>
               <div className="space-y-2">
                 <p className="text-cyan-400 font-semibold text-sm uppercase tracking-wide">
-                  No Codes Needed
-                </p>
-                <p className="text-white text-lg">Just your name</p>
-                <p className="text-gray-400 text-sm">
-                  The referred customer enters your name in the "How did you
-                  hear about us?" field at checkout
-                </p>
-              </div>
-              <div className="space-y-2">
-                <p className="text-cyan-400 font-semibold text-sm uppercase tracking-wide">
                   No Limit on Referrals
                 </p>
-                <p className="text-white text-lg">Refer as many people as you like</p>
+                <p className="text-white text-lg">Refer as many as you like</p>
                 <p className="text-gray-400 text-sm">
                   Every confirmed booking earns you credit
                 </p>
@@ -163,12 +153,12 @@ export default function ReferralProgramPage() {
           <div className="flex flex-col md:flex-row gap-10 items-start">
             <div className="flex-shrink-0">
               <div className="w-16 h-16 bg-cyan-500/10 border border-cyan-500/30 rounded-full flex items-center justify-center">
-                <HelpCircle className="w-8 h-8 text-cyan-400" />
+                <CreditCard className="w-8 h-8 text-cyan-400" />
               </div>
             </div>
             <div className="space-y-4">
               <h2 className="font-teko text-4xl font-bold text-white">
-                HOW TRACKING WORKS
+                GIVE CREDIT, GET CREDIT
               </h2>
               <p className="text-gray-400 text-lg">
                 There's nothing complicated here. Our checkout form already
