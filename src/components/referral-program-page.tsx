@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Heart, Users, Trophy, DollarSign, Shield, HelpCircle } from "lucide-react";
+import { Heart, Megaphone, Trophy, DollarSign, Shield, HelpCircle } from "lucide-react";
 import { BOOKING_URL, CALENDLY_URL } from "@/lib/constants";
 
 export default function ReferralProgramPage() {
@@ -31,9 +31,6 @@ export default function ReferralProgramPage() {
               <div className="w-16 h-16 bg-cyan-500/10 border border-cyan-500/30 rounded-full flex items-center justify-center mx-auto">
                 <Trophy className="w-8 h-8 text-cyan-400" />
               </div>
-              <div className="w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center mx-auto text-black font-bold text-sm">
-                1
-              </div>
               <h3 className="font-teko text-2xl font-bold text-white">
                 HAVE AN EPIC EVENT
               </h3>
@@ -45,10 +42,7 @@ export default function ReferralProgramPage() {
 
             <div className="text-center space-y-4">
               <div className="w-16 h-16 bg-cyan-500/10 border border-cyan-500/30 rounded-full flex items-center justify-center mx-auto">
-                <Users className="w-8 h-8 text-cyan-400" />
-              </div>
-              <div className="w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center mx-auto text-black font-bold text-sm">
-                2
+                <Megaphone className="w-8 h-8 text-cyan-400" />
               </div>
               <h3 className="font-teko text-2xl font-bold text-white">
                 TELL SOMEONE ABOUT US
@@ -63,9 +57,6 @@ export default function ReferralProgramPage() {
             <div className="text-center space-y-4">
               <div className="w-16 h-16 bg-cyan-500/10 border border-cyan-500/30 rounded-full flex items-center justify-center mx-auto">
                 <DollarSign className="w-8 h-8 text-cyan-400" />
-              </div>
-              <div className="w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center mx-auto text-black font-bold text-sm">
-                3
               </div>
               <h3 className="font-teko text-2xl font-bold text-white">
                 EARN BOOKING CREDIT
