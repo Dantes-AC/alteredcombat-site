@@ -7,7 +7,7 @@ export default function ReferralProgramPage() {
   return (
     <div className="pt-12">
       {/* Hero */}
-      <section className="py-12 bg-gradient-to-b from-[#0a0a0f] to-[#0f0f18]">
+      <section className="pt-12 pb-6 bg-gradient-to-b from-[#0a0a0f] to-[#0f0f18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-teko text-5xl sm:text-6xl font-bold text-white mb-4">
             KNOW SOMEONE WHO'D LOVE THIS?
