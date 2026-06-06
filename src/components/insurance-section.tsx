@@ -21,7 +21,7 @@ const coverageItems = [
 
 export default function InsuranceSection() {
   return (
-    <section className="py-16 bg-[#0a0a0f]">
+    <section className="py-10 bg-[#0a0a0f]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-[#12121a] border border-gray-800 rounded-2xl p-8 md:p-12">
 

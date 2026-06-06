@@ -81,7 +81,7 @@ export default function ServiceAreasPage() {
 
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
-      <section className="relative py-32 pt-40">
+      <section className="relative py-16 pt-20">
         <div className="absolute inset-0 bg-gradient-to-b from-cyan-500/10 to-transparent"></div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl font-bold text-white tracking-tight mb-6">
@@ -97,13 +97,13 @@ export default function ServiceAreasPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#0a0a0f]">
+      <section className="py-12 bg-[#0a0a0f]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8">
             <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-4">FIND YOUR AREA</h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">Click your city to learn more about mobile gaming events in your area.</p>
           </div>
-          <div className="space-y-12">
+          <div className="space-y-8">
             {regions.map((region) => {
               const colors = colorClasses[region.color];
               return (
@@ -133,7 +133,7 @@ export default function ServiceAreasPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#12121a]">
+      <section className="py-12 bg-[#12121a]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-teko text-4xl font-bold text-white mb-4">DON'T SEE YOUR CITY?</h2>
           <p className="text-xl text-gray-300 mb-8">We travel anywhere in Arizona and beyond. If you've got a space, we'll bring the games. Give us a call to discuss your event location.</p>
@@ -141,7 +141,7 @@ export default function ServiceAreasPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-b from-[#12121a] to-[#0a0a0f]">
+      <section className="py-12 bg-gradient-to-b from-[#12121a] to-[#0a0a0f]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-6">READY TO PLAY?</h2>
           <p className="text-xl text-gray-300 mb-8">Book online or give us a call. We'll handle the rest.</p>

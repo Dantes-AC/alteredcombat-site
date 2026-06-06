@@ -177,7 +177,7 @@ export default function CityPageTemplate({ config }: { config: CityConfig }) {
   return (
     <div className="min-h-screen bg-[#0a0a0f]">
       {/* Hero */}
-      <section className="relative py-32 pt-40">
+      <section className="relative py-16 pt-20">
         <div className={`absolute inset-0 bg-gradient-to-b ${c.gradient} to-transparent`} />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className={`inline-block ${c.bg} border ${c.border} rounded-full px-4 py-2 ${c.text} text-sm font-medium mb-6`}>
@@ -207,9 +207,9 @@ export default function CityPageTemplate({ config }: { config: CityConfig }) {
       </section>
 
       {/* Why Cards */}
-      <section className="py-20 bg-[#12121a]">
+      <section className="py-12 bg-[#12121a]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-teko text-4xl font-bold text-white text-center mb-12">
+          <h2 className="font-teko text-4xl font-bold text-white text-center mb-6">
             WHY {nameUpper} CHOOSES ALTERED COMBAT
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -236,12 +236,12 @@ export default function CityPageTemplate({ config }: { config: CityConfig }) {
 
       {/* Neighborhoods (optional) */}
       {config.neighborhoods && config.neighborhoods.length > 0 && (
-        <section className="py-20">
+        <section className="py-12">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="font-teko text-4xl font-bold text-white text-center mb-4">
               SERVING ALL OF {nameUpper}
             </h2>
-            <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
+            <p className="text-gray-400 text-center mb-6 max-w-2xl mx-auto">
               No matter which part of {config.name} you're in, we'll bring the
               games to you.
             </p>
@@ -271,12 +271,12 @@ export default function CityPageTemplate({ config }: { config: CityConfig }) {
       )}
 
       {/* Venues / Event Spots */}
-      <section className={`py-20 ${config.neighborhoods ? "bg-[#12121a]" : ""}`}>
+      <section className={`py-12 ${config.neighborhoods ? "bg-[#12121a]" : ""}`}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-teko text-4xl font-bold text-white text-center mb-4">
             POPULAR {nameUpper} EVENT SPOTS
           </h2>
-          <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
+          <p className="text-gray-400 text-center mb-6 max-w-2xl mx-auto">
             {config.name}'s parks and venues are perfect for our mobile games.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
@@ -305,7 +305,7 @@ export default function CityPageTemplate({ config }: { config: CityConfig }) {
 
       {/* Travel Note (optional) */}
       {config.travelNote && (
-        <section className="py-16 bg-[#12121a]">
+        <section className="py-10 bg-[#12121a]">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div className={`${c.bg} border ${c.border} rounded-2xl p-8`}>
               <h3 className="font-teko text-2xl font-bold text-white mb-4">
@@ -320,7 +320,7 @@ export default function CityPageTemplate({ config }: { config: CityConfig }) {
 
       {/* Nearby Cities */}
       {config.nearbyCities.length > 0 && (
-        <section className="py-16 bg-[#0a0a0f]">
+        <section className="py-10 bg-[#0a0a0f]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p className="text-gray-400 mb-4">Also serving nearby cities:</p>
             <div className="flex flex-wrap justify-center gap-3">
@@ -339,7 +339,7 @@ export default function CityPageTemplate({ config }: { config: CityConfig }) {
       )}
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-b from-[#12121a] to-[#0a0a0f]">
+      <section className="py-12 bg-gradient-to-b from-[#12121a] to-[#0a0a0f]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-6">
             READY TO PLAY IN {nameUpper}?

@@ -3,7 +3,7 @@ import { PHONE_NUMBER, PHONE_HREF, EMAIL } from "@/lib/constants";
 
 export default function PrivacyContent() {
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-300 space-y-12">
+    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-300 space-y-8">
 
       {/* Intro */}
       <p className="text-gray-400">

@@ -25,9 +25,9 @@ const steps = [
 
 export default function HowItWorksPreview() {
   return (
-    <section className="py-24 bg-[#0f0f18]">
+    <section className="py-14 bg-[#0f0f18]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-4">
             HOW IT WORKS
           </h2>
@@ -54,7 +54,7 @@ export default function HowItWorksPreview() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center mt-6">
           <a
             href={BOOKING_URL}
             target="_blank"

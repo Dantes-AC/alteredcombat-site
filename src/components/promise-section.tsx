@@ -25,9 +25,9 @@ const promises = [
 
 export default function PromiseSection() {
   return (
-    <section className="py-20 bg-gradient-to-b from-[#0f0f18] to-[#0a0a0f]">
+    <section className="py-12 bg-gradient-to-b from-[#0f0f18] to-[#0a0a0f]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
+        <div className="text-center mb-6">
           <div className="inline-flex items-center space-x-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full px-4 py-2 mb-6">
             <BadgeCheck className="w-5 h-5 text-cyan-400" />
             <span className="text-cyan-400 font-medium text-sm">Our Commitment To You</span>
@@ -59,7 +59,7 @@ export default function PromiseSection() {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
+        <div className="mt-6 text-center">
           <p className="text-gray-500 text-sm">
             Proudly serving Arizona & beyond since 2020
           </p>

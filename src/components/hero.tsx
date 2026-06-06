@@ -31,7 +31,7 @@ export default function Hero() {
   }, [services.length]);
 
   return (
-    <section className="relative min-h-screen pt-24">
+    <section className="relative min-h-screen pt-16">
       {/* Background Image - absolute within hero only */}
       <div 
         className="absolute inset-0 z-0"
@@ -45,10 +45,10 @@ export default function Hero() {
       </div>
 
       {/* Content - top aligned on mobile, vertically centered on desktop */}
-      <div className="relative z-10 px-4 sm:px-6 lg:px-8 text-center min-h-[calc(100vh-96px)] flex flex-col justify-start md:justify-center pt-6 md:pt-0 pb-20">
+      <div className="relative z-10 px-4 sm:px-6 lg:px-8 text-center min-h-[calc(100vh-96px)] flex flex-col justify-start md:justify-center pt-6 md:pt-0 pb-12">
         <div className="max-w-5xl mx-auto">
           {/* Badges Row */}
-          <div className="flex flex-wrap items-center justify-center gap-3 mb-8 md:mb-16">
+          <div className="flex flex-wrap items-center justify-center gap-3 mb-8 md:mb-8">
             {/* Veteran Owned Badge */}
             <div className="inline-flex items-center space-x-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full px-4 py-2">
               <USFlagIcon />
@@ -69,12 +69,12 @@ export default function Hero() {
             </Link>
           </div>
 
-          <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white tracking-tight mb-8 md:mb-16 glow-text">
+          <h1 className="font-teko text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white tracking-tight mb-8 md:mb-8 glow-text">
             A NEW WAY TO PLAY
           </h1>
           
           {/* Animated Service Line + Static Text (grouped as one unit) */}
-          <div className="max-w-4xl mx-auto mb-10 md:mb-20">
+          <div className="max-w-4xl mx-auto mb-10 md:mb-10">
             <div className="flex items-center justify-center overflow-visible mb-2">
               <span 
                 className={`text-3xl sm:text-4xl md:text-5xl font-bold uppercase tracking-wide transition-all duration-500 text-center leading-tight ${
@@ -95,7 +95,7 @@ export default function Hero() {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 md:mb-20">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 md:mb-10">
             <a
               href={BOOKING_URL}
               target="_blank"

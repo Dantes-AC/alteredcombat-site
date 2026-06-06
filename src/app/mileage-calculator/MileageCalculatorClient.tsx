@@ -18,9 +18,9 @@ export default function MileageCalculatorClient() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0f] pt-32 pb-16">
+    <div className="min-h-screen bg-[#0a0a0f] pt-16 pb-10">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
+        <div className="text-center mb-6">
           <h1 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-4">
             MILEAGE CALCULATOR
           </h1>

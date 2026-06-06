@@ -20,9 +20,9 @@ export default function ReviewsSection() {
   }, [])
 
   return (
-    <section className="py-20 bg-gradient-to-b from-[#0a0a0f] to-[#0f0f18]">
+    <section className="py-12 bg-gradient-to-b from-[#0a0a0f] to-[#0f0f18]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div id="reviews" className="scroll-mt-24 text-center mb-12">
+        <div id="reviews" className="scroll-mt-24 text-center mb-6">
           <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-4">
             WHAT OUR CUSTOMERS SAY
           </h2>

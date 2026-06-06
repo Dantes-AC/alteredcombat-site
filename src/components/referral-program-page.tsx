@@ -5,9 +5,9 @@ import { BOOKING_URL, CALENDLY_URL } from "@/lib/constants";
 
 export default function ReferralProgramPage() {
   return (
-    <div className="pt-20">
+    <div className="pt-12">
       {/* Hero */}
-      <section className="py-20 bg-gradient-to-b from-[#0a0a0f] to-[#0f0f18]">
+      <section className="py-12 bg-gradient-to-b from-[#0a0a0f] to-[#0f0f18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-teko text-5xl sm:text-6xl font-bold text-white mb-4">
             KNOW SOMEONE WHO'D LOVE THIS?
@@ -21,9 +21,9 @@ export default function ReferralProgramPage() {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 bg-[#0f0f18]">
+      <section className="py-12 bg-[#0f0f18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-teko text-4xl font-bold text-white text-center mb-12">
+          <h2 className="font-teko text-4xl font-bold text-white text-center mb-6">
             HOW IT WORKS
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -72,7 +72,7 @@ export default function ReferralProgramPage() {
       </section>
 
       {/* Why We Do This */}
-      <section className="py-20 bg-[#0f0f18]">
+      <section className="py-12 bg-[#0f0f18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-10 items-start">
             <div className="flex-shrink-0">
@@ -107,7 +107,7 @@ export default function ReferralProgramPage() {
       </section>
 
       {/* How Tracking Works */}
-      <section className="py-20 bg-[#0a0a0f]">
+      <section className="py-12 bg-[#0a0a0f]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-10 items-start">
             <div className="flex-shrink-0">
@@ -148,7 +148,7 @@ export default function ReferralProgramPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-[#0f0f18]">
+      <section className="py-12 bg-[#0f0f18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-[#12121a] border border-cyan-500/30 rounded-2xl p-8 md:p-12 text-center">
             <Heart className="w-10 h-10 text-cyan-400 mx-auto mb-4" />

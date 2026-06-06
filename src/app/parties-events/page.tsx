@@ -13,9 +13,9 @@ export const metadata: Metadata = {
 
 export default function PartiesEventsPage() {
   return (
-    <div className="pt-20">
+    <div className="pt-12">
       {/* Hero */}
-      <section className="py-20 bg-gradient-to-b from-[#0a0a0f] to-[#0f0f18]">
+      <section className="py-12 bg-gradient-to-b from-[#0a0a0f] to-[#0f0f18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-teko text-5xl sm:text-6xl font-bold text-white mb-4">
             PARTIES & EVENTS
@@ -49,7 +49,7 @@ export default function PartiesEventsPage() {
       <InsuranceSection />
 
       {/* Custom Event Consultation */}
-      <section className="py-16 bg-[#0f0f18]">
+      <section className="py-10 bg-[#0f0f18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-[#12121a] border border-cyan-500/30 rounded-2xl p-8 md:p-12 text-center">
             <PencilRuler className="w-10 h-10 text-cyan-400 mx-auto mb-4" />
@@ -74,7 +74,7 @@ export default function PartiesEventsPage() {
       </section>
 
       {/* Venues */}
-      <section className="py-20 bg-[#0a0a0f]">
+      <section className="py-12 bg-[#0a0a0f]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-teko text-4xl font-bold text-white mb-4">
             WE COME TO YOU

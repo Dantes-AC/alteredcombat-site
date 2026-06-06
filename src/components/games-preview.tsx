@@ -37,9 +37,9 @@ const games = [
 
 export default function GamesPreview() {
   return (
-    <section className='py-24 bg-[#0a0a0f]'>
+    <section className='py-14 bg-[#0a0a0f]'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='text-center mb-16'>
+        <div className='text-center mb-8'>
           <h2 className='font-teko text-4xl sm:text-5xl font-bold text-white mb-4'>
             CHOOSE YOUR GAME
           </h2>
@@ -85,7 +85,7 @@ export default function GamesPreview() {
           ))}
         </div>
 
-        <div className='text-center mt-12'>
+        <div className='text-center mt-6'>
           <Link href='/games' className='btn-secondary'>
             View All Games
           </Link>

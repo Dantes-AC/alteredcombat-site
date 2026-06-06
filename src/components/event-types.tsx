@@ -90,9 +90,9 @@ export default function EventTypes({ variant = 'homepage' }: EventTypesProps) {
 
   if (variant === 'homepage') {
     return (
-      <section className="py-20 bg-[#0a0a0f]">
+      <section className="py-12 bg-[#0a0a0f]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-6">
             <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-4">
               FUN FOR EVERY OCCASION
             </h2>
@@ -126,7 +126,7 @@ export default function EventTypes({ variant = 'homepage' }: EventTypesProps) {
   }
 
   return (
-    <section className="py-16 bg-[#0f0f18]">
+    <section className="py-10 bg-[#0f0f18]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {events.map((event) => (

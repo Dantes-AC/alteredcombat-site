@@ -25,9 +25,9 @@ const reasons = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="py-24 bg-gradient-to-b from-[#0a0a0f] to-[#0f0f18]">
+    <section className="py-14 bg-gradient-to-b from-[#0a0a0f] to-[#0f0f18]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="font-teko text-4xl sm:text-5xl font-bold text-white mb-4">
             WHY ALTERED COMBAT?
           </h2>
