@@ -282,10 +282,10 @@ export default function FAQPage() {
               <button
                 key={i}
                 onClick={() => setActiveCategory(i)}
-                className={`flex items-center gap-2 px-4 py-2 rounded-full border-2 text-sm font-bold transition-all duration-300 ${
+                className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm ${
                   activeCategory === i
-                    ? "border-cyan-500 bg-cyan-500 text-black"
-                    : "border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-black"
+                    ? "border-2 border-cyan-500 text-cyan-400 bg-transparent font-bold transition-all duration-300"
+                    : "border-2 border-cyan-500/30 text-gray-400 bg-transparent hover:border-cyan-500 hover:text-cyan-400 transition-all duration-300"
                 }`}
               >
                 {cat.icon}
