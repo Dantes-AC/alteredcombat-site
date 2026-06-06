@@ -37,6 +37,9 @@ export default function Footer() {
               <Link href='/service-areas' className='text-gray-400 hover:text-cyan-400 transition-colors'>
                 Service Areas
               </Link>
+              <Link href='/faq' className='text-gray-400 hover:text-cyan-400 transition-colors'>
+                FAQ
+              </Link>
               <Link href='/referral-program' className='text-gray-400 hover:text-cyan-400 transition-colors'>
                 Referral Program
               </Link>
