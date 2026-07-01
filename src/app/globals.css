@@ -1,8 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@reference "tailwindcss";
+@import "tailwindcss";
 
 :root {
   --cyan-glow: #00d4ff;
