@@ -24,7 +24,7 @@ export default function Header() {
           <div className='flex-1'>
             <Link href='/' className='flex-shrink-0'>
               <img
-                src='https://us.chat-img.sintra.ai/97d167d5-7687-49d0-a6c6-ccc61b7563ca/adcd015e-8263-4eb3-8503-91ab3b64ba31/Altered_Combat_-_Original.png'
+                src='/images/logo.png'
                 alt='Altered Combat logo - mobile gaming and party rental company'
                 className='h-16 w-auto'
               />
