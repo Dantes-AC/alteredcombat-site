@@ -214,7 +214,7 @@ function FAQAccordion({ items }: { items: FAQItem[] }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <div className="divide-y divide-white/10">
+    <div>
       {items.map((item, i) => (
         <div key={i}>
           <button
