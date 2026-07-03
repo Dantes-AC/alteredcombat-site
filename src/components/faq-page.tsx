@@ -244,7 +244,7 @@ const categories: FAQCategory[] = [
       {
         question: "Do adults play too, or just kids?",
         answer:
-          "Everyone plays. Laser tag, Nerf wars, and water wars are just as fun for adults as they are for kids. Many of our corporate events and adult parties are some of our best sessions.",
+          "Everyone plays. Our games are just as fun for adults as they are for kids. Many of our corporate events and adult parties are some of our best sessions.",
       },
     ],
   },
