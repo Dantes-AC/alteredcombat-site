@@ -239,7 +239,7 @@ const categories: FAQCategory[] = [
       {
         question: "Is it safe?",
         answer:
-          "Yes. Our equipment is maintained to high standards and our game formats are designed with safety in mind. We're fully licensed and insured, carrying $1M/$2M general liability coverage plus inland marine and errors & omissions insurance.",
+          "Yes — every piece of equipment is cleaned and inspected before each event to make sure it's functioning properly and ready to go. Our laser tag gear uses FDA-certified Class 1 eye-safe lasers, so there's no risk to players' eyes during gameplay.",
       },
       {
         question: "Do adults play too, or just kids?",
