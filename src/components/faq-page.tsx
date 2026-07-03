@@ -140,13 +140,32 @@ const categories: FAQCategory[] = [
     items: [
       {
         question: "Where do you serve?",
-        answer:
-          "We're based in Buckeye, Arizona and serve the entire state — Phoenix Metro, East Valley, West Valley, Tucson, Flagstaff, Prescott, Sedona, and beyond. If you're not sure whether we can reach you, use our mileage calculator or just ask.",
+        answer: (
+          <>
+            We're based in Buckeye, Arizona and serve the entire state —
+            Phoenix Metro, East Valley, West Valley, Tucson, Flagstaff,
+            Prescott, Sedona, and beyond. If you're not sure whether we can
+            reach you, use our{" "}
+            <Link href="/mileage-calculator" className="text-cyan-400 hover:text-cyan-300 underline">
+              mileage calculator
+            </Link>{" "}
+            or just ask.
+          </>
+        ),
       },
       {
         question: "Do you charge for travel?",
-        answer:
-          "Travel fees may apply depending on distance from our base in Buckeye. Travel costs are factored into your booking quote. Use our mileage calculator on the site to estimate your distance, or ask us directly.",
+        answer: (
+          <>
+            If your event location is within 15 miles of our base in Buckeye,
+            there's no travel surcharge. Beyond 15 miles, you're in our
+            extended service area and a travel fee applies. Use our{" "}
+            <Link href="/mileage-calculator" className="text-cyan-400 hover:text-cyan-300 underline">
+              mileage calculator
+            </Link>{" "}
+            to check your distance.
+          </>
+        ),
       },
       {
         question: "Do you come to my location?",
