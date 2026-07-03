@@ -209,8 +209,27 @@ const categories: FAQCategory[] = [
     items: [
       {
         question: "What's the minimum age to play?",
-        answer:
-          "Most games work well for ages 7 and up. VR is generally recommended for ages 10 and up due to headset fit and cognitive demands. We'll always let you know if a game isn't a good fit for a younger group.",
+        answer: (
+          <>
+            Age minimums vary by game:
+            <ul className="list-disc list-inside space-y-1 mt-2">
+              <li>
+                <span className="text-white font-medium">Nerf Wars &amp; Water Wars:</span>{" "}
+                No minimum age — these work for players of any age.
+              </li>
+              <li>
+                <span className="text-white font-medium">Laser Tag:</span>{" "}
+                Ages 8 and up, based on equipment size and weight, and the
+                strategic gameplay involved.
+              </li>
+              <li>
+                <span className="text-white font-medium">VR:</span> Ages 12
+                and up, based on headset fit, cognitive demands, and
+                manufacturer guidance.
+              </li>
+            </ul>
+          </>
+        ),
       },
       {
         question: "Is there a minimum or maximum group size?",
