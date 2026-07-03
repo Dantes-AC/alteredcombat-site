@@ -65,13 +65,34 @@ const categories: FAQCategory[] = [
       },
       {
         question: "What's your cancellation policy?",
-        answer:
-          "We understand life happens. Please contact us as early as possible if you need to cancel or reschedule. Deposits are non-refundable, but we'll work with you to reschedule your event when possible. Full cancellation policies are outlined at booking.",
+        answer: (
+          <>
+            Cancel more than 14 days out and you'll get a full refund. Inside
+            7–13 days, cancellations aren't refundable but you'll receive a
+            100% credit valid for 90 days. Inside 6 days, credit is issued at
+            our discretion, and cancellations inside 48 hours aren't eligible
+            for a refund or credit. See our{" "}
+            <Link href="/terms-of-service" className="text-cyan-400 hover:text-cyan-300 underline">
+              Terms of Service
+            </Link>{" "}
+            for the full policy.
+          </>
+        ),
       },
       {
         question: "Can I reschedule my event?",
-        answer:
-          "Yes. Give us as much notice as possible and we'll do our best to find a new date that works. Rescheduling is much easier than canceling — just reach out.",
+        answer: (
+          <>
+            Yes — give us as much notice as possible. More than 14 days out,
+            your first reschedule is free (additional changes are $100 each).
+            Inside 7–13 days, a 20% rescheduling fee applies. Inside 7 days,
+            rescheduling isn't available. Full details are in our{" "}
+            <Link href="/terms-of-service" className="text-cyan-400 hover:text-cyan-300 underline">
+              Terms of Service
+            </Link>
+            .
+          </>
+        ),
       },
     ],
   },
@@ -87,7 +108,7 @@ const categories: FAQCategory[] = [
       {
         question: "Is there a deposit required?",
         answer:
-          "Yes, a deposit is required to secure your date. The deposit amount is shown during checkout. The remaining balance is typically due before or on the day of your event.",
+          "No deposit — full payment is due at the time of booking to secure your date. Your event isn't officially reserved until payment is received and you've gotten an official confirmation email from us. Quotes and conversations don't hold a date.",
       },
       {
         question: "Do you offer group discounts?",
@@ -172,7 +193,7 @@ const categories: FAQCategory[] = [
       {
         question: "What happens if it rains or gets too hot?",
         answer:
-          "Arizona weather can be intense. If conditions are unsafe (extreme heat, monsoon, lightning), we'll contact you to discuss options — rescheduling, moving indoors, or adjusting timing. We always put safety first and will work with you on a fair resolution.",
+          "Arizona weather can be intense. If unsafe conditions (extreme heat, monsoon, lightning) come up before we start setup, you'll receive a 100% credit and we'll help you find a new date. Once setup has begun, the event is considered delivered, so we're not able to issue refunds or credits if we need to pause, modify, or end gameplay early — safety always comes first, though, and we'll never keep playing through something dangerous.",
       },
       {
         question: "Do you do indoor events?",
