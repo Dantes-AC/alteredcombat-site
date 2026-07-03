@@ -234,7 +234,7 @@ const categories: FAQCategory[] = [
       {
         question: "Is there a minimum or maximum group size?",
         answer:
-          "Minimums vary by package and game. Laser tag typically works best with 10+ players. We can also accommodate large events with 40, 60, or 100+ players — we have packages built for field days, conventions, and big corporate events.",
+          "There's no minimum group size, though we always recommend at least six players for the best experience. Maximums vary by package and game, and are listed in the description of each package.",
       },
       {
         question: "Is it safe?",
