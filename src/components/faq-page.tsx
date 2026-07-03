@@ -59,7 +59,7 @@ const categories: FAQCategory[] = [
       {
         question: "Can I book same-day?",
         answer:
-          "Sometimes, yes — but it depends on our schedule and travel distance. Call or text us directly at " +
+          "Sometimes, yes — but it depends on our schedule, travel distance, and will include a surcharge. Call or text us directly at " +
           PHONE_NUMBER +
           " and we'll do our best to make it happen.",
       },
