@@ -174,8 +174,32 @@ const categories: FAQCategory[] = [
       },
       {
         question: "What kind of space do you need?",
-        answer:
-          "It depends on the game. Laser tag and Nerf wars work best with open outdoor space or a large indoor area. VR only needs a small footprint per station. We'll tell you exactly what to plan for once you choose your game.",
+        answer: (
+          <>
+            Space needs depend on the game and how many players you have —
+            exact requirements are listed in each experience's description.
+            As a general guide:
+            <ul className="list-disc list-inside space-y-1 mt-2">
+              <li>
+                <span className="text-white font-medium">VR:</span> Indoor
+                only. Needs the smallest footprint of any of our games.
+              </li>
+              <li>
+                <span className="text-white font-medium">Laser Tag:</span>{" "}
+                Indoor or outdoor (weather dependent). At least 1,500 sq ft.
+              </li>
+              <li>
+                <span className="text-white font-medium">Nerf Wars:</span>{" "}
+                Indoor or outdoor. At least 1,500 sq ft if using our
+                obstacles.
+              </li>
+              <li>
+                <span className="text-white font-medium">Water Wars:</span>{" "}
+                Outdoor only. At least 1,500 sq ft if using our obstacles.
+              </li>
+            </ul>
+          </>
+        ),
       },
     ],
   },
