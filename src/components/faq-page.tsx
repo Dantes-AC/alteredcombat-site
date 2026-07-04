@@ -259,8 +259,26 @@ const categories: FAQCategory[] = [
       },
       {
         question: "Do you do indoor events?",
-        answer:
-          "Yes. Many of our games adapt well to indoor spaces like gyms, warehouses, church halls, and event centers. VR in particular works great indoors. If you have an indoor venue in mind, tell us during booking.",
+        answer: (
+          <>
+            Yes, depending on the game:
+            <ul className="list-disc list-inside space-y-1 mt-2">
+              <li>
+                <span className="text-white font-medium">VR:</span> Indoor
+                only — great for gyms, warehouses, church halls, and event
+                centers.
+              </li>
+              <li>
+                <span className="text-white font-medium">Laser Tag &amp; Nerf Wars:</span>{" "}
+                Work well both indoors and outdoors.
+              </li>
+              <li>
+                <span className="text-white font-medium">Water Wars:</span>{" "}
+                Outdoor only.
+              </li>
+            </ul>
+          </>
+        ),
       },
       {
         question: "How long does setup and teardown take?",
