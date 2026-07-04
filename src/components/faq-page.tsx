@@ -265,8 +265,9 @@ const categories: FAQCategory[] = [
             <ul className="list-disc list-inside space-y-1 mt-2">
               <li>
                 <span className="text-white font-medium">VR:</span> Indoor
-                only — great for gyms, warehouses, church halls, and event
-                centers.
+                only, and it works with spaces as small as 175 sq ft — a
+                great fit for a home setup — while scaling just as easily
+                into gyms, warehouses, and large event centers.
               </li>
               <li>
                 <span className="text-white font-medium">Laser Tag &amp; Nerf Wars:</span>{" "}
