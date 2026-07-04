@@ -24,7 +24,7 @@ export default function TosContent() {
         <p className="text-gray-400">
           An event is not considered booked or reserved until:
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Full payment has been received, and</li>
           <li>An official Altered Combat confirmation email has been issued</li>
         </ul>
@@ -45,7 +45,7 @@ export default function TosContent() {
 
         <div className="space-y-3">
           <h3 className="text-lg font-semibold text-cyan-400">Cancellation</h3>
-          <ul className="list-disc list-inside space-y-2 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-2 text-gray-400">
             <li>
               <span className="text-white font-medium">
                 More Than 14 Days Before Your Event:
@@ -105,7 +105,7 @@ export default function TosContent() {
 
         <div className="space-y-3">
           <h3 className="text-lg font-semibold text-cyan-400">Rescheduling</h3>
-          <ul className="list-disc list-inside space-y-2 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-2 text-gray-400">
             <li>
               <span className="text-white font-medium">
                 More Than 14 Days Before Your Event:
@@ -138,7 +138,7 @@ export default function TosContent() {
         <p className="text-gray-400">
           Events will end at the scheduled time regardless of delays caused by:
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Late arrivals</li>
           <li>Incomplete waivers</li>
           <li>Site access issues</li>
@@ -160,7 +160,7 @@ export default function TosContent() {
           space.
         </p>
         <p className="text-gray-400">Minimum requirements include:</p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Adequate space for the selected experience</li>
           <li>Clean, dry, and unobstructed play area</li>
           <li>No mud, sand, loose debris, or hazardous terrain</li>
@@ -190,7 +190,7 @@ export default function TosContent() {
           <p className="text-gray-400">
             The customer is solely responsible for obtaining all required:
           </p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>Permits</li>
             <li>Approvals</li>
             <li>Venue permissions</li>
@@ -201,7 +201,7 @@ export default function TosContent() {
             listed as an Additional Insured on Altered Combat's
             Certificate of Insurance (COI), the customer must:
           </p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>Notify Altered Combat at least 7 business days in advance</li>
             <li>
               Provide all required documentation, including the correct legal
@@ -220,7 +220,7 @@ export default function TosContent() {
             Access &amp; Parking Requirements
           </h3>
           <p className="text-gray-400">Customers must ensure:</p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>
               Parking is available within a reasonable proximity to the event
               area
@@ -256,7 +256,7 @@ export default function TosContent() {
             The customer must ensure the event area is fully prepared prior to
             arrival, including:
           </p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>
               Irrigation systems are turned off for the entire duration of the
               event, including setup and breakdown
@@ -267,7 +267,7 @@ export default function TosContent() {
           <p className="text-gray-400">
             Failure to meet these requirements may result in:
           </p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>Delayed setup</li>
             <li>Modified gameplay</li>
             <li>Or cancellation of the event without refund</li>
@@ -290,13 +290,13 @@ export default function TosContent() {
           6. Participant Requirements &amp; Conduct
         </h2>
         <p className="text-gray-400">All participants must:</p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Have a completed waiver on file prior to participation</li>
           <li>Follow all instructions from staff</li>
           <li>Use equipment safely and as intended</li>
         </ul>
         <p className="text-gray-400">Prohibited behavior includes:</p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Physical contact (pushing, shoving, grappling)</li>
           <li>Climbing on obstacles</li>
           <li>Misuse of equipment</li>
@@ -318,7 +318,7 @@ export default function TosContent() {
           during an event or rental.
         </p>
         <p className="text-gray-400">Charges may apply for:</p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Lost or unreturned equipment</li>
           <li>Damage beyond normal wear and tear</li>
           <li>Misuse or unauthorized modification</li>
@@ -335,7 +335,7 @@ export default function TosContent() {
           8. Rentals (Drop-Off Experiences)
         </h2>
         <p className="text-gray-400">For equipment rentals without staff:</p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>
             The customer assumes full responsibility for supervision, safety,
             and use of equipment
@@ -353,7 +353,7 @@ export default function TosContent() {
         <h2 className="font-teko text-3xl font-bold text-white">
           9. Travel, Fees &amp; Additional Charges
         </h2>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Travel includes a base service area; additional distance may incur mileage fees</li>
           <li>After-hours or early setup requests may incur additional charges</li>
           <li>Additional staffing or extended service time will be billed accordingly</li>
@@ -373,7 +373,7 @@ export default function TosContent() {
           Altered Combat reserves the right to refuse, modify, or terminate
           service at any time due to:
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Unsafe conditions</li>
           <li>Non-compliance with rules</li>
           <li>Inadequate venue conditions</li>
@@ -399,7 +399,7 @@ export default function TosContent() {
           prior to participation.
         </p>
         <p className="text-gray-400">By booking, you acknowledge that:</p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Participation involves inherent risks</li>
           <li>
             You are responsible for ensuring all participants have completed
@@ -417,7 +417,7 @@ export default function TosContent() {
           To the fullest extent permitted by law, Altered Combat is not liable
           for:
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Injuries arising from participation</li>
           <li>Damage to property not caused by gross negligence</li>
           <li>Delays or interruptions caused by factors outside our control</li>
@@ -433,7 +433,7 @@ export default function TosContent() {
           You agree to defend, indemnify, and hold harmless Altered Combat
           from any claims, damages, or liabilities arising out of:
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Your event</li>
           <li>Your participants</li>
           <li>Your venue or site conditions</li>
@@ -450,7 +450,7 @@ export default function TosContent() {
           Altered Combat is not liable for failure or delay in performance due
           to events beyond our control, including but not limited to:
         </p>
-        <ul className="list-disc list-inside space-y-1 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
           <li>Severe weather</li>
           <li>Natural disasters</li>
           <li>Government restrictions</li>

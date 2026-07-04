@@ -31,7 +31,7 @@ export default function PrivacyContent() {
             Provided voluntarily through forms, SMS, booking systems, email, or
             event interactions:
           </p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>Name</li>
             <li>Email address</li>
             <li>Phone number</li>
@@ -65,7 +65,7 @@ export default function PrivacyContent() {
             Through tools such as Google Analytics and Meta (Facebook/Instagram)
             Pixel, this may include:
           </p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>Pages viewed</li>
             <li>Device and browser type</li>
             <li>IP address</li>
@@ -80,7 +80,7 @@ export default function PrivacyContent() {
             1.4 Cookies &amp; Tracking Technologies
           </h3>
           <p className="text-gray-400">We use:</p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>Essential cookies</li>
             <li>Functional cookies</li>
             <li>Analytics cookies</li>
@@ -96,7 +96,7 @@ export default function PrivacyContent() {
             1.5 SMS &amp; Email Communications
           </h3>
           <p className="text-gray-400">If you opt in:</p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>
               We may send booking updates, promotions, reminders, and
               service-related messages.
@@ -113,7 +113,7 @@ export default function PrivacyContent() {
           2. How We Use Your Information
         </h2>
         <p className="text-gray-400">We use collected information to:</p>
-        <ul className="list-disc list-inside space-y-2 text-gray-400">
+        <ul className="list-disc list-outside pl-5 space-y-2 text-gray-400">
           <li>Provide and deliver event services</li>
           <li>Process bookings and payments</li>
           <li>Respond to inquiries</li>
@@ -145,7 +145,7 @@ export default function PrivacyContent() {
             3.1 Trusted Service Providers
           </h3>
           <p className="text-gray-400">Such as:</p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>
               <span className="text-white font-medium">
                 Payment Processors:
@@ -184,7 +184,7 @@ export default function PrivacyContent() {
           <p className="text-gray-400">
             We may disclose data when required to:
           </p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>Comply with law</li>
             <li>Respond to subpoenas or legal requests</li>
             <li>
@@ -307,7 +307,7 @@ export default function PrivacyContent() {
             5.6 CCPA Rights (California Residents)
           </h3>
           <p className="text-gray-400">You have the right to:</p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>Know what data we collect</li>
             <li>Understand how it is used</li>
             <li>Request deletion</li>
@@ -323,7 +323,7 @@ export default function PrivacyContent() {
             5.7 GDPR Rights (EU/UK Users)
           </h3>
           <p className="text-gray-400">You have the right to:</p>
-          <ul className="list-disc list-inside space-y-1 text-gray-400">
+          <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>Access</li>
             <li>Rectify</li>
             <li>Erase</li>

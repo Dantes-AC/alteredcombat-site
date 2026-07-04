@@ -179,7 +179,7 @@ const categories: FAQCategory[] = [
             Space needs depend on the game and how many players you have —
             exact requirements are listed in each experience's description.
             As a general guide:
-            <ul className="list-disc list-inside space-y-1 mt-2">
+            <ul className="list-disc list-outside pl-5 space-y-1 mt-2">
               <li>
                 <span className="text-white font-medium">VR:</span> Indoor
                 only. Needs the smallest footprint of any of our games.
@@ -212,7 +212,7 @@ const categories: FAQCategory[] = [
         answer: (
           <>
             Age minimums vary by game:
-            <ul className="list-disc list-inside space-y-1 mt-2">
+            <ul className="list-disc list-outside pl-5 space-y-1 mt-2">
               <li>
                 <span className="text-white font-medium">Nerf Wars &amp; Water Wars:</span>{" "}
                 No minimum age — these work for players of any age.
@@ -262,7 +262,7 @@ const categories: FAQCategory[] = [
         answer: (
           <>
             Yes, depending on the game:
-            <ul className="list-disc list-inside space-y-1 mt-2">
+            <ul className="list-disc list-outside pl-5 space-y-1 mt-2">
               <li>
                 <span className="text-white font-medium">VR:</span> Indoor
                 only, and it works with spaces as small as 175 sq ft — a
