@@ -423,7 +423,7 @@ export default function FAQPage() {
 
           {/* Active category */}
           <div className="bg-[#12121a] border border-white/10 rounded-2xl px-6 md:px-10 py-2">
-            <FAQAccordion items={categories[activeCategory].items} />
+            <FAQAccordion key={activeCategory} items={categories[activeCategory].items} />
           </div>
         </div>
       </section>
