@@ -295,7 +295,7 @@ const categories: FAQCategory[] = [
       {
         question: "Are you insured?",
         answer:
-          "Yes. We carry comprehensive coverage including $1M/$2M general liability, inland marine insurance for equipment in transit, and errors & omissions coverage. A certificate of insurance is available upon request for venues and event planners.",
+          "Yes. We carry comprehensive coverage including $1M/$2M general liability, inland marine insurance for equipment in transit, and errors & omissions coverage.",
       },
       {
         question: "Are you a licensed business?",
@@ -304,9 +304,14 @@ const categories: FAQCategory[] = [
       {
         question: "Can you provide proof of insurance for a venue?",
         answer:
-          "Absolutely. Just let us know you need a COI and we'll get it to you. Email us at " +
+          "Absolutely. A certificate of insurance is available upon request for venues and event planners — just let us know you need one and we'll get it to you. Email us at " +
           EMAIL +
           " or request it during booking.",
+      },
+      {
+        question: "Can you add our venue as an additional insured?",
+        answer:
+          "Yes. If your venue, city, or property owner needs to be listed as an Additional Insured on our Certificate of Insurance, just let us know at least 7 business days before your event so we have time to process the request and get you the updated documentation.",
       },
     ],
   },
