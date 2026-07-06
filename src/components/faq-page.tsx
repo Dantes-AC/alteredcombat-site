@@ -113,12 +113,27 @@ const categories: FAQCategory[] = [
       {
         question: "Do you offer group discounts?",
         answer:
-          "We have packages designed for different group sizes, so larger groups are already priced accordingly. We don't negotiate pricing, but we do offer a referral credit program — refer a friend who books and earn up to $100 toward your next event.",
+          "We have packages designed for different group sizes, so larger groups are already priced accordingly. We don't negotiate pricing on group size.",
+      },
+      {
+        question: "Can I create my own package?",
+        answer:
+          "Most bookings are for a single game, but we do build custom combo packages that combine multiple games into one event. These aren't something you configure during the online booking flow — reach out to us directly and we'll put together a custom quote for you.",
       },
       {
         question: "What's included in the price?",
         answer:
           "All equipment, setup, teardown, and travel (within standard range) are included. We bring everything — you just provide the space and the players. Optional add-ons like a game host are available depending on the package.",
+      },
+      {
+        question: "Do you provide a staff member to run the event, or do we run it ourselves?",
+        answer:
+          "Some of our packages include a trained staff member who runs and referees the game for you, while others are self-run drop-off or pickup rentals. Check each package's description to see what's included.",
+      },
+      {
+        question: "How long does the event itself last?",
+        answer:
+          "During booking, you can choose a 2, 3, or 4 hour event. If you need something longer, contact us directly for a custom quote.",
       },
       {
         question: "Do you offer referral rewards?",
@@ -240,6 +255,11 @@ const categories: FAQCategory[] = [
         question: "Is it safe?",
         answer:
           "Yes — every piece of equipment is cleaned and inspected before each event to make sure it's functioning properly and ready to go. Our laser tag gear uses FDA-certified Class 1 eye-safe lasers, so there's no risk to players' eyes during gameplay.",
+      },
+      {
+        question: "Do I need to sign a waiver?",
+        answer:
+          "For hosted events, yes — every participant, or a parent/guardian for anyone under 18, completes a digital waiver through our booking system before the event. For drop-off or pickup rentals, you'll sign a digital equipment rental agreement instead. Everything is handled online — there's nothing to print or download.",
       },
       {
         question: "Do adults play too, or just kids?",
