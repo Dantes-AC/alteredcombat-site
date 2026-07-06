@@ -123,7 +123,7 @@ const categories: FAQCategory[] = [
       {
         question: "What's included in the price?",
         answer:
-          "All equipment, setup, teardown, and travel (within standard range) are included. We bring everything — you just provide the space and the players. Optional add-ons like a game host are available depending on the package.",
+          "All equipment, setup, teardown, and travel (within standard range) are included. We bring everything — you just provide the space and the players. Optional add-ons are available depending on the package.",
       },
       {
         question: "Do you provide a staff member to run the event, or do we run it ourselves?",
