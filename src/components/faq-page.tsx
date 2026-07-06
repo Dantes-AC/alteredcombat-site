@@ -284,7 +284,7 @@ const categories: FAQCategory[] = [
       {
         question: "How long does setup and teardown take?",
         answer:
-          "Setup typically takes 30–60 minutes depending on the game and package. Teardown is usually 20–30 minutes. We handle all of it — you don't need to lift a finger.",
+          "Setup typically takes 30–120 minutes depending on the game and package, and teardown usually takes 30–60 minutes. We handle everything ourselves — you don't need to lift a finger.",
       },
     ],
   },
