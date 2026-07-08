@@ -81,13 +81,18 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className='border-t border-gray-800 mt-6 pt-8 flex flex-col md:flex-row justify-between items-center'>
-          <p className='text-gray-500 text-sm'>
-            © {new Date().getFullYear()} Altered Combat. All rights reserved.
-          </p>
-          <p className='text-gray-500 text-sm mt-2 md:mt-0'>
-            Based in Buckeye, Arizona
-          </p>
+        <div className='border-t border-gray-800 mt-6 pt-8 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-center text-sm text-gray-500'>
+          <span>© {new Date().getFullYear()} Altered Combat. All rights reserved.</span>
+          <span className='text-gray-600'>•</span>
+          <Link href='/privacy-policy' className='hover:text-cyan-400 transition-colors'>
+            Privacy Policy
+          </Link>
+          <span className='text-gray-600'>•</span>
+          <Link href='/terms-of-service' className='hover:text-cyan-400 transition-colors'>
+            Terms of Service
+          </Link>
+          <span className='text-gray-600'>•</span>
+          <span>Based in Buckeye, Arizona</span>
         </div>
       </div>
     </footer>
