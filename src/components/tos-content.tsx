@@ -222,29 +222,26 @@ export default function TosContent() {
           <p className="text-gray-400">Customers must ensure:</p>
           <ul className="list-disc list-outside pl-5 space-y-1 text-gray-400">
             <li>
-              Parking is available within a reasonable proximity to the event
-              area
+              Vehicle access for loading and unloading is arranged as close as
+              physically and legally possible to the event area, both before
+              and after the event
             </li>
             <li>
-              The event site is located no more than a 5-minute walk from the
-              nearest available parking
+              If the vehicle cannot remain at the event location after
+              unloading, parking is arranged as close as possible to the event
+              area and no more than ¼ mile away by the walking route
             </li>
             <li>
-              A clear, safe, and unobstructed path exists between parking and
-              the setup area
+              A clear, safe, and unobstructed path exists between the loading
+              and unloading point, the parking location, and the setup area
             </li>
           </ul>
           <p className="text-gray-400">
-            Drive-on access is strongly preferred for efficient unloading and
-            loading.
-          </p>
-          <p className="text-gray-400">
-            If drive-on access is not available, the location must still meet
-            all proximity and accessibility requirements.
-          </p>
-          <p className="text-gray-400">
-            Delays caused by distance, restricted access, or unloading
-            limitations do not extend event duration.
+            Failure to provide the required loading, unloading, or parking
+            access may prevent us from setting up or completing the event. In
+            such cases, the event will be subject to our standard cancellation
+            and no-show terms. Delays caused by distance, restricted access, or
+            unloading limitations do not extend event duration.
           </p>
         </div>
 
