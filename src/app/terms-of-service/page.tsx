@@ -11,7 +11,7 @@ export default function TermsOfServicePage() {
             TERMS OF SERVICE
           </h1>
           <p className="text-gray-400">
-            Effective Date: April 2026
+            Effective Date: September 28, 2026
           </p>
         </div>
       </section>
